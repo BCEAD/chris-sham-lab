@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+/*Contents styling begins here*/
+
+
+.column {
+  	float: left;
+	
+}
+
+.left {
+  	width: 35%;
+	padding-right: 10px;
+}
+
+
+.right {
+  	width: 65%;
+}
+
+/*content section-left column styling begins here*/
+.profile-picture {
+	text-align: center;
+}
+
+
+.contact {
+	font-size: 15px;
+	color: black;
+}
+
+.contact li {
+  	color: black;
+  	display: inline-block;
+	padding-bottom: 10px;
+  	text-decoration: none; 
+}
+
+/*content section-right column styling begins here*/
+.name {
+	text-align: left;
+	color: #004d9d;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 22px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: bold;
+	color: #004d9d;
+	padding-left: 10px;
+}
+
+h5{
+	font-size: 22px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
+.academic-qualifications {
+	text-align: justify;
+	padding: 10px;
+}
+
+.research-interest {
+	text-align: justify;
+	padding: 10px;
+}
+
+.representative-publication {
+	text-align: justify;
+	padding: 10px;
+}
+
+/*button for view all publication*/
+.button {
+  	border: none;
+  	outline: 0;
+  	display: inline-block;
+  	padding: 10px;
+	margin-bottom: 50px;
+  	color: white;
+  	background-color: #d66f00;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 30%;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 10px;
+	float: left;
+}
+
+.button:hover {
+  	background-color: #cacaca;
+	color: black;
+	font-weight: bold;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+
+@media screen and (max-width: 1000px) {
+.column {
+    width: 100%;
+    margin-top: 0;
+	display: block;
+	text-align: center;
+  }
+}
+

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	border-radius: 30px;
+  	background-color: #f2f2f2;
+  	padding-top: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: absoulte;
+	left: 50%;
+	transform: translate (-50%);
+}
+
+
+h5{
+	font-size: 60px;
+	font-weight: bold;
+	color: #004d9d;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	
+}
+
+h6{
+	font-size: 30px;
+	font-weight: bold;
+	color: #004d9d;
+	text-align: justify;
+	padding-left: 20px;
+	
+}
+
+.list-of-alumni {
+	margin-bottom: 50px;
+}
+
+.alumni-name {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+	padding-left: 20px;
+}
+
+.alumni-background {
+	font-size: 18px;
+	font-weight: bold;
+	color: #d66f00;
+	text-align: justify;
+	padding-left: 20px;
+}
