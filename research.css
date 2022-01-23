@@ -15,7 +15,7 @@ body, html {
 /* Banner image styling begins here*/
 .banner-image {
 	height: 500px;
-	background-image: url("../images/banner-image12.jpeg");
+	background-image: url("banner-image12.jpeg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
