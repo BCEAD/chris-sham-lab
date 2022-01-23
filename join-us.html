@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris Sham Lab</title>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="lib/bootstrap/v5.0.2.css" type="text/css" />
+    <link rel="stylesheet" href="css/styleguide.css" type="text/css" />
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <link href="css/join-us.css" rel="stylesheet" type="text/css">
+	<script src="lib/bootstrap/v5.0.2.js" type="text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1546804-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-1546804-1');
+    </script>
+  </head>
+  <body>
+    <!-- SIDEBAR - OFF CANVAS - START -->
+    <div id="nus-sidebar-off-canvas" class="nus-sidebar-off-canvas offcanvas offcanvas-end flex-shrink-0" tabindex="-1" aria-labelledby="nus-sidebar-off-canvas">
+      <div class="header offcanvas-header">
+        <h5 class="offcanvas-title">Sidebar</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="body offcanvas-body">
+        <div class="nus-module module_menu">
+          <div class="module-inner">
+            <h3 class="title">
+              <span>Main Menu</span>
+            </h3>
+            <div class="module-ct">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <a href="index.html" class="mnu-lvl-1 btn align-items-center">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a href="research.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">Research</a>
+                </li> 
+                <li class="mb-1">
+                  <a href="people.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">People</a>
+                </li>
+
+                <li class="mb-1">
+                  <a href="publication.html" class="mnu-lvl-1 btn align-items-center">Publication</a>
+                </li>                
+                <li class="mb-1">
+                  <a href="gallery.html" class="mnu-lvl-1 btn align-items-center">Gallery</a>
+                </li>                
+                <li class="mb-1">
+                  <a href="contact.html" class="mnu-lvl-1 btn align-items-center">Contact Us</a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR MOBILE - OFF CANVAS - END -->
+    <div class="nus-body-container">
+      <div class="nus-wrapper">
+        <!-- HEADER -->
+        <header class="nus-header">
+          <!-- set class='microsite' to get #eee background. -->
+          <div class="container-lg">
+            <div class="row justify-content-evenly">
+              <!-- LOGO SECTION - START -->
+              <div class="col nus-logo">
+                <div class="d-flex flex-row">
+                  <!-- NUS LOGO -->
+                  <div>
+                    <a class="navbar-brand" href="//www.nus.edu.sg">
+                      <img src="images/logo.png" alt="NUS" />
+                    </a>
+                  </div>
+                  <!-- BORDER , .nus-dcnm (set own height and margin border CSS in template.css -->
+                  <div class="nus-faculty-border nus-dcnm">&nbsp;</div>
+                  <!-- FACULTY SUB-LOGO -->
+                  <div>
+                    <a href="https://medicine.nus.edu.sg/mbio/index.html">
+                      <img src="images/dept-sublogo5.png" alt="SubLogo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- LOGO SECTION - END -->
+              <div class="col d-none d-lg-block">
+                <!-- QUICKLINKS -->
+                <div class="nus-quicklinks">
+                  <ul class="box nav nav-pills">
+                    <li>
+                      <a href="https://news.nus.edu.sg/">News</a>
+                    </li>
+                    <li>
+                      <a href="https://libportal.nus.edu.sg/frontend/index">Library</a>
+                    </li>
+                    <li>
+                      <a href="https://myportal.nus.edu.sg/studentportal/alerts/all/">Student</a>
+                    </li>
+					<li>
+                      <a href="https://www.nus.edu.sg/inside-nus">Staff</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //QUICKLINKS -->
+              </div>
+              <!-- SEARCH & BURGER Mobile-->
+              <div class="col nus-mobile-nav d-block d-lg-none">
+                <ul>
+                  <li>
+                    <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+                  </li>
+                  <li>
+                    <a class="faicon fa-mobile-menu btn-toggle off-canvas-toggle" data-bs-toggle="offcanvas" href="#nus-sidebar-off-canvas">&nbsp;</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </header>
+        <!-- //HEADER -->
+        <!-- MAIN NAVIGATION Desktop-->
+        <nav class="navbar navbar-expand-lg nus-main-nav d-none d-lg-flex">
+          <div class="container-lg">
+            <!-- MAIN MENU - NUS - START -->
+            <div class="nus-megamenu d-none d-md-block ">
+              <ul class="nav navbar-nav level0">
+                <li>
+                  <a class="" href="index.html" data-target="#">Home</a>
+                </li>
+                <li data-id="113" data-level="1">
+                  <a class="" href="research.html" data-target="#">Research</a>
+				</li>
+                <li data-id="114" data-level="1">
+                  <a class="" href="people1.html" data-target="#">People</a>
+                </li>
+                <li data-id="115" data-level="1">
+                  <a class="" href="publication.html" data-target="#">Publication</a>
+                </li>
+                <li data-id="116" data-level="1">
+                  <a class="" href="gallery.html" data-target="#">Gallery</a>
+                </li>
+				<li class="current active" data-id="117" data-level="1">
+                  <a class="" href="join-us.html" data-target="#">Join Us</a>
+                </li>
+                <li data-id="118" data-level="1">
+                  <a class="" href="contact.html" data-target="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- MAIN MENU - NUS - END -->
+            <!-- SEARCH BUTTON ICON Desktop - START -->
+            <div class="search-btn-box d-none d-lg-block">
+              <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+            </div>
+            <!-- SEARCH BUTTON ICON - END -->
+          </div>
+        </nav>
+        <!-- //MAIN NAVIGATION -->
+        <!-- SEARCH FORM Collapse-->
+        <div id="search-collapse" class="nus-search-box collapse">
+          <div class="container-lg py-3">
+            <div class="search">
+              <form action="https://www.google.com/search" method="get" class="form-inline form-search">
+                <input name="q" id="mod-search-searchword" class="form-control input-lg" type="text" placeholder="Search...">
+                <input type="hidden" name="domains" value="nus.edu.sg" />
+                <input type="hidden" name="sitesearch" value="nus.edu.sg" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- NUS SEARCH - ENDS -->
+
+        
+        <!-- CONTENT - START -->
+        <div class="nus-banner">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="banner-image"></div>
+          </div>
+        </div>
+    
+<!--This section to list down the lab publication-->
+<div class="container">
+	<h5>Join Us!</h5>
+	<p style="text-align: center; font-size: 20px; font-weight: bold; ">We are seeking highly motivated and talented postdoctoral fellows, students and research staff. <br>
+	Please contact Dr. Chris Sham (lsham@nus.edu.sg) if you are interested in joining our team.
+	</p>
+
+	<div class="research-fellow">
+		<h10>Research Fellow</h10>
+		<p>The candidate will join the team to investigate topics related to capsule biogenesis in the human respiratory pathogen <i>Streptococcus pneumoniae</i>. A competitive compensation package will be provided based on experience and the track record. Interested candidates should submit a curriculum vitae and the contact information of three references to Dr. Chris Sham (lsham@nus.edu.sg) Please note that only shortlisted candidates will be notified.</p>
+		<h15>Requirements</h15>
+		<div class="requirement-list">
+		<li>Ph.D. in Microbiology or related fields</li>
+		<li>Excellent written and oral communication skills in English</li>
+		<li>Highly motivated, self-driven, and independent</li>
+		<li>Interested in science and be able to work well in a team</li>
+		<li>Prior experience with next-generation sequencing, animal studies, molecular biology, and/or bacteriology preferred</li>
+		</div>
+	</div>
+	
+	<div class="students">
+		<h10>UROPS / Final Year Project / Research Attachment / Internship Students</h10>
+		<p>Interested to join our diverse team? Please contact Dr. Chris Sham (lsham@nus.edu.sg) or drop by his office for a chat about our current projects.</p>
+		&nbsp;
+	</div>
+</div>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+        <!-- CONTENT - END -->
+        <!-- NUS BREADCRUMBS - START -->
+        <div class="nus-breadcrumbs">
+          <div class="container-lg">
+            <ul>
+              <li>
+                <span class="icon faicon fa-location"></span>
+                <a href="index.html">Home</a>
+              </li>
+              <li>Join Us</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NUS BREADCRUMBS - END -->
+        <!-- FOOTER - START -->
+        <footer class="nus-footer">
+          <!-- FOOT NAVIGATION - START -->
+          <div class="container-lg">
+            <div class="row wrapper navigator">
+              <div class="text-center">
+                <div class="nus-social-box">
+                  <div class="nus-module module">
+                    <div class="module-inner">
+                      <h3 class="title">
+                        <span>Bacterial Cell Envelope and Antibiotic Development (BCEAD) Laboratory</span>
+                      </h3>
+                      <div class="module-ct">
+                        <ul class="nus-contact-us">
+                          <li>
+                            <span class="icon faicon fa-address"></span>21 Lower Kent Ridge Road <br />Singapore 119077
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-phone"></span>+65 6601 2097
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-email"></span>
+                            <a href="mailto:xxx@nus.edu.sg">mictsj@nus.edu.sg</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nus-module module footnav-alt">
+                    <div class="module-inner">
+                      <div class="module-ct">
+                        <div>
+                          <a href="http://www.facebook.com/nus.singapore" target="_blank">
+                            <img src="images/facebook.png" alt="facebook" width="32" height="32">
+                          </a>&nbsp; <a href="http://twitter.com/NUSingapore" target="_blank">
+                            <img src="images/twitter.png" alt="twitter" width="32" height="32">
+                          </a>&nbsp; <a href="http://www.youtube.com/nuscast" target="_blank">
+                            <img src="images/youtube.png" alt="youtube" width="32" height="32">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOT NAVIGATION - END -->
+          <!-- FOOTER - COPYRIGHT - START -->
+          <div class="copyright">
+            <div class="container-lg">
+              <div class="row">
+                <div class="info">&copy; <a href="http://www.nus.edu.sg/">National University of Singapore</a>. All Rights Reserved. </div>
+                <div>
+                  <ul class="nav-copyright">
+                    <li>
+                      <a href="http://www.nus.edu.sg/legal-information-notices">Legal</a>
+                    </li>
+                    <li class="bullet">
+                      <a href="#">Branding guidelines</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER - COPYRIGHT - END -->
+        </footer>
+        <!-- FOOTER - END -->
+      </div>
+      <!-- NUS WRAPPER -->
+    </div>
+    <!-- NUS BODY container-lg -->
+    <a name="footer"></a>
+  </body>
+</html>
