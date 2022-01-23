@@ -34,7 +34,7 @@ html {
 	margin-right: auto;
 	max-width: 100%;
 	height: 600px;
-	background-image: url("../images/banner-template1.jpeg");
+	background-image: url("banner-template1.jpeg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -47,7 +47,7 @@ html {
 	margin-right: auto;
 	max-width: 100%;
 	height: 600px;
-	background-image: url("../images/banner-template2.jpg");
+	background-image: url("banner-template2.jpg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -60,7 +60,7 @@ html {
 	margin-right: auto;
 	max-width: 100%;
 	height: 600px;
-	background-image: url("../images/banner-template3.jpg");
+	background-image: url("banner-template3.jpg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
