@@ -4,7 +4,7 @@
 /* Banner image styling begins here*/
 .banner-image {
 	height: 500px;
-	background-image: url("../images/banner-image7.jpg");
+	background-image: url("banner-image7.jpg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
