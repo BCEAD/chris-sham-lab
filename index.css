@@ -98,8 +98,3 @@ html {
 	padding-right: 5px;
 }
 
-@media screen and (min-width: 300px) {
-	.nus-faculty-border nus-dcnm {
-		display: none;
-	}
-}
