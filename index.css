@@ -99,5 +99,7 @@ html {
 }
 
 @media screen and (max-width: 300px) {
-	
+	.nus-faculty-border nus-dcnm {
+		display: none;
+	}
 }
