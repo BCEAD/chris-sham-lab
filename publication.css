@@ -35,15 +35,14 @@
 }
 
 .selected-publication {
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 1400px;
+	padding: 15px 15px 50px 15px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	left: 50%;
+	transform: translate (-50% -50%);
 	font-size: 30px;
 	font-weight: bold;
 	color: #003D7C;
-	padding: 0 15px;
 }
 
 
