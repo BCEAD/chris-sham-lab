@@ -50,3 +50,9 @@ h6{
 	text-align: justify;
 	padding-left: 20px;
 }
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
+}
