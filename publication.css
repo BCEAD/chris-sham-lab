@@ -34,6 +34,18 @@
   	mix-blend-mode: screen; /* This makes the cutout text possible */
 }
 
+.selected-publication {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1400px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #003D7C;
+	padding: 0 15px;
+}
+
 
 .publication-row {
   	background-color: #f2f2f2;
