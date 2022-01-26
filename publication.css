@@ -91,4 +91,11 @@ h10 {
 .trial123 {
 	display: none;
 }
+	
+.selected-publication {
+	padding: 15px 15px 50px 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
 }
