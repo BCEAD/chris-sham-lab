@@ -163,4 +163,8 @@ h4::after {
 .trial123 {
 	display: none;
 }
+	
+.alumni-button {
+	width: 40%;
+}
 }
