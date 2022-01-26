@@ -132,7 +132,8 @@ h4::after {
 .column {
 	width: 80%;
 	height: auto;
-    display: block;
+    	display: block;
+	text-align: center;
   }
 }
 
