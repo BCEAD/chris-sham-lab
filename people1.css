@@ -168,5 +168,8 @@ h4::after {
 .alumni-button {
 	width: 40%;
 }
-	
+
+.banner-image {
+	background-image: url("banner-image2r.png");
+]}
 }
