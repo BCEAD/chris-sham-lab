@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .banner-image {
-	height: 20%;
+	height: 100px;
 	background-image: url("banner-image2.png");
 	background-position: center;
   	background-repeat: no-repeat;
