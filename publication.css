@@ -36,12 +36,12 @@
 
 .selected-publication {
 	padding: 15px 15px 50px 15px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
-	color: #003D7C;
+	color: #004d9d;
 }
 
 .publication-row {
