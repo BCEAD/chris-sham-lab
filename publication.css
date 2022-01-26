@@ -138,8 +138,14 @@ h10 {
 h10 {
 	font-size: 15px;
 }
-	
+
+}
+
+@media screen and (max-width: 800px) {
 .button {
 	width: 40%;
+}
+.button1 {
+	width: 60%;
 }
 }
