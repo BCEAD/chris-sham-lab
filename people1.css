@@ -3,7 +3,12 @@
 
 .banner-image {
 	height: 500px;
-	background-image: url("banner-image2.png");
+	/*background-image: url("banner-image2.png");*/
+	background-image: image-set(
+    banner-image2.png 1x,
+    banner-image2.png 2x,
+    banner-image.png 3x
+  );
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
