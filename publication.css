@@ -58,6 +58,16 @@
 	font-size: 15px;
 }
 
+.all-publication {
+	padding: 15px 15px 50px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
 h10 {
 	font-size: 20px;
 	color: #004d9d;
