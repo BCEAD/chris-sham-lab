@@ -40,11 +40,14 @@
 	margin-bottom: 50px;
 	left: 50%;
 	transform: translate (-50% -50%);
+}
+
+h15 {
+	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
 	color: #003D7C;
 }
-
 
 .publication-row {
   	background-color: #f2f2f2;
