@@ -167,4 +167,8 @@ h4::after {
 .alumni-button {
 	width: 40%;
 }
+	
+.banner-image {
+	block-size: auto;
+}
 }
