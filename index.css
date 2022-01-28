@@ -147,7 +147,7 @@ html {
 }
 
 
-.active, .dot:hover {
+.dot:hover {
   background-color: #717171;
 }
 
