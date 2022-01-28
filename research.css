@@ -95,6 +95,12 @@ table tr td img{
 	*/
 }
 
+.research-topic {
+	font-size: 20px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
 
 /*button for Read More*/
 .button {
@@ -129,7 +135,7 @@ table {
 	
 td {
 	display:block;
-    width:100%;
+    	width:100%;
 	padding-bottom: 10px;
 }
 	
