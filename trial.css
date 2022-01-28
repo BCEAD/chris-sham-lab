@@ -19,3 +19,8 @@
 #gallery-modal .modal-img {
 	width: 100%;
 }
+
+p.image-text {
+	font-size: 12px;
+	text-align: center;
+}
