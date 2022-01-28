@@ -204,5 +204,9 @@ html {
 .trial123 {
 	display: none;
 }
+
+#welcome {
+	font-size: 15px;
+}
 }
 
