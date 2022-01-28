@@ -73,6 +73,7 @@ html {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  padding-top: 20px;
 }
 
 /* Hide the images by default */
