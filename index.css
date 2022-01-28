@@ -76,10 +76,6 @@ html {
   padding-top: 20px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
 /* Next & previous buttons */
 .prev, .next {
