@@ -25,6 +25,11 @@ body, html {
   	background-size: cover;
   	position: relative;
 }
+
+.image-text {
+	font-size: 12px;
+	text-align: center;
+}
 	
 
 /* Position the image container (needed to position the left and right arrows) */
