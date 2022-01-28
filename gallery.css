@@ -26,7 +26,7 @@ body, html {
   	position: relative;
 }
 
-.image-text {
+p.image-text {
 	font-size: 12px;
 	text-align: center;
 }
