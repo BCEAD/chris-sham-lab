@@ -105,13 +105,9 @@ table tr td img {
 
 
 
-@media screen and (max-width: 1000px) {
-.column {
-    width: 100%;
-    margin-top: 0;
-	display: block;
-	text-align: center;
-  }
+@media screen and (max-width: 800px) {
+td {
+	width: 100%;
 }
 
 @media screen and (max-width: 500px) {
