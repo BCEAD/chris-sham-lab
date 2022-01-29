@@ -3,60 +3,15 @@
 
 
 	
-/*Contents styling begins here*/
-
-/*
-.column {
-  	float: left;
-	
-}
-
-.left {
-  	width: 35%;
-	padding-right: 10px;
-}
-
-
-.right {
-  	width: 65%;
-}
-
-/*content section-left column styling begins here*/
-.profile-picture {
-	text-align: center;
-}
-
-
-.contact {
-	font-size: 15px;
-	color: black;
-}
-
-.contact li {
-  	color: black;
-  	display: inline-block;
-	padding-bottom: 10px;
-  	text-decoration: none; 
-}
-
-/*content section-right column styling begins here*/
 .name {
-	text-align: left;
-	color: #004d9d;
-	padding-left: 10px;
+	text-align: justify;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-h1{
-	font-size: 40px;
-	font-weight: bold;
-}
-
-h2{
-	font-size: 22px;
-	font-weight: bold;
-	color: #004d9d;
+.contact {
+	font-size: 14px;
+	padding-left: 10px;
 }
 
 h3{
