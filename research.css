@@ -13,6 +13,7 @@ body, html {
 }
 
 /* Banner image styling begins here*/
+/*
 .banner-image {
 	height: 500px;
 	background-image: url("banner-image12.jpeg");
@@ -22,7 +23,7 @@ body, html {
 	background-attachment: fixed;
   	position: relative;
 }
-
+*/
 
 .research-overview {
 	margin-right: auto;
