@@ -110,12 +110,12 @@ td {
 	display: block;
 	width: 100%;
 	background-color: white;
+	align: center;
 }
 	
 table tr td img {
 	width: 220px;
 	height: 300px;
-	text-align: center;
 }
 
 @media screen and (max-width: 500px) {
