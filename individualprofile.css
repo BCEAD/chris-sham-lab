@@ -11,7 +11,7 @@
 
 .contact {
 	font-size: 14px;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 }
 
 h2{
@@ -36,17 +36,17 @@ h5{
 
 .academic-qualifications {
 	text-align: justify;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .research-interest {
 	text-align: justify;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .selected-publication {
 	text-align: justify;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 /*button for view all publication*/
