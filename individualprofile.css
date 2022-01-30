@@ -110,6 +110,12 @@ td {
 	display: block;
 	width: 100%;
 }
+	
+table tr td img {
+	width: 250px;
+	height: 150px;
+	text-align: center;
+}
 
 @media screen and (max-width: 500px) {
 .trial123 {
