@@ -108,7 +108,7 @@ h10 {
   	background-color: #d66f00;
   	text-align: center;
   	cursor: pointer;
-  	width: 30%;
+  	width: 20%;
 	font-size: 20px;
 	font-weight: bold;
 	border-radius: 10px;
@@ -147,6 +147,6 @@ h10 {
 	width: 40%;
 }
 .button1 {
-	width: 60%;
+	width: 40%;
 }
 }
