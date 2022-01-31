@@ -113,8 +113,8 @@ td {
 }
 	
 table tr td img {
-	width: 220px;
-	height: 300px;
+	width: 300px;
+	height: 410px;
 }
 
 @media screen and (max-width: 500px) {
