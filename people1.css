@@ -2,14 +2,14 @@
 /* CSS Document */
 
 
-.container
+.container1
 {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
 }
-.container .card
+.container1 .card
 {
    width: 330px;
    height: 416px;
@@ -20,14 +20,14 @@
                -0.5em -0.5em 1em #ffffff;
    border-radius: 20px;
 }
-.container .card .content
+.container1 .card .content
 {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
 }
-.container .card .content .imgBx
+.container1 .card .content .imgBx
 {
    width: 180px;
    height: 180px;
@@ -36,7 +36,7 @@
    margin-bottom: 20px;
    overflow: hidden;
 }
-.container .card .content .imgBx img
+.container1 .card .content .imgBx img
 {
    position: absolute;
    top: 0;
@@ -45,7 +45,7 @@
    height: 100%;
    object-fit: cover;
 }
-.container .card .content .contentBx h4
+.container1 .card .content .contentBx h4
 {
    color: #36187d;
    font-size: 1.7rem;
@@ -53,18 +53,18 @@
    text-align: center;
    letter-spacing: 1px;
 }
-.container .card .content .contentBx h5
+.container1 .card .content .contentBx h5
 {
    color: #6c758f;
    font-size: 1.2rem;
    font-weight: bold;
    text-align: center;
 }
-.container .card .content .sci
+.container1 .card .content .sci
 {
    margin-top: 20px;
 }
-.container .card .content .sci a
+.container1 .card .content .sci a
 {
    text-decoration: none;
    color: #6c758f;
@@ -72,7 +72,7 @@
    margin: 10px;
    transition: color 0.4s;
 }
-.container .card .content .sci a:hover
+.container1 .card .content .sci a:hover
 {
    color: #0196e3;
 }
