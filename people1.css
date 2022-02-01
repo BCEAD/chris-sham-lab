@@ -117,3 +117,9 @@ section {
     background-color: #363636;
 
 }
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
+}
