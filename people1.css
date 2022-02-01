@@ -44,7 +44,7 @@ section {
     bottom: 0;
     right: 0;
     z-index: 1;
-    filter: blur(4px) grayscale(100%);
+    filter: blur(4px) grayscale(80%);
 }
 
 .team img {
