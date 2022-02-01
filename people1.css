@@ -75,8 +75,7 @@ section {
     color: #363636;
     padding: 16px;
     border-top: 8px solid var(--primary);
-    border-radius: 50% 50% 0px 0px;
-    padding-top: 80px;
+   
     text-align: center;
     transform: scale(2)
 }
