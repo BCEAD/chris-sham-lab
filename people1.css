@@ -1,117 +1,118 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap');
-*
-{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: "Poppins",sans-serif;
-}
-body
-{
-   /*display: flex;*/
-   justify-content: center;
-   align-items: center;
-   /*flex-wrap: wrap;*/
-   min-height: 100vh;
-   width: 100%;
+.header {
+    text-align: center;
+    margin: auto;
+    max-width: 50vh;
+    padding-block: 48px;
+    margin-bottom: 48px;
+    border-bottom: 2px dashed var(--primary);
+    color: var(--primary);
+    font-size: 32px;
+    letter-spacing: 4px;
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
 
-.card
-{
-   position: relative;
-   width: 340px;
-   height: 450px;
-   background: #fff;
-   overflow: hidden;
-   border-radius: 10px;
-   margin: 20px;
+.team {
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    margin: 8px;
+    border: 2px solid var(--primary);
+    border-radius: 16px;
+    position: relative;
+    background-color: #ffffff34;
 }
-.card .circle
-{
-   position: absolute;
-   top: -190px;
-   left: 50%;
-   width: 500px;
-   height: 500px;
-   transform: translateX(-50%);
-   clip-path: circle();
+
+.team::before {
+    content: '';
+    background-image: var(--img);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    filter: blur(4px) grayscale(100%);
 }
-.card .circle::before
-{
-   content: '';
-   position: absolute;
-   top: -8px;
-   left: -16px;
-   width: 100%;
-   height: 100%;
-   box-shadow: 0 0 0 20px rgba(255,0,0,0.5);
-   border-radius: 50%;
-   z-index: 2;
-   pointer-events: none;
+
+.team img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 480px;
+    border-radius: 16px;
+    z-index: 3;
+    object-fit: cover;
+    border: none;
 }
-.circle .imgBox
-{
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   transform: translateX(-50%);
-   width: 340px;
-   height: 310px;
+
+.team:hover img {
+    width: 160px;
+    height: 240px;
+    border: 2px solid var(--primary);
+    left: 80px;
+    top: 60px;
 }
-.imgBox img
-{
-   position: absolute;
-   top: 0;
-   left: 0;
-   object-fit: cover;
-   width: 100%;
-   height: 100%;
-   transition: all 0.5s;
+
+.team .info {
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #363636;
+    padding: 16px;
+    border-top: 8px solid var(--primary);
+    border-radius: 50% 50% 0px 0px;
+    padding-top: 80px;
+    text-align: center;
+    transform: scale(2)
 }
-.imgBox img:hover
-{
-   transform: scale(1.2);
+
+.team .name {
+    font-size: 24px;
+    padding: 16px;
+    text-transform: capitalize;
 }
-.card .content
-{
-   position: absolute;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 140px;
-   padding: 20px 30px;
+
+.team .title {
+    color: grey;
+    text-transform: capitalize;
 }
-.content .fa-linkedin
-{
-   padding: 2px 4px;  
-   color: #fff;
-   background: #0077b5;
-   border-radius: 2px;
+
+.team:hover .info {
+    transform: scale(1)
 }
-.content h3
-{
-   font-size: 1.4em;
-   color: #333;
-   margin-top: 7px;
-   margin-bottom: 2px;
+
+.team .social {
+    padding-block: 16px;
+    font-size: 24px;
 }
-.content .textIcon
-{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100%;
+
+.team .social i {
+    display: inline-block;
+    width: 48px;
+    padding: 12px;
+    background-color: #ededed;
+    border-radius: 16px;
+    margin: 4px;
+    cursor: pointer;
 }
-.content .textIcon h4
-{
-   color: #e91e63;
-   font-weight: 400;
-}
-.content .textIcon .fa-arrow-right
-{
-   color: #e91e63;
+
+.team .social i:hover {
+    color: var(--primary);
+    background-color: #363636;
+
 }
