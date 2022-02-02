@@ -20,10 +20,11 @@
 	width: 100%;
 }
 
-p.image-text {
+.image-text {
 	font-size: 15px;
 	text-align: center;
 	padding-top: 10px;
+	color: #004d9d;
 }
 
 @media screen and (max-width: 500px) {
