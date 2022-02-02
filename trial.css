@@ -25,3 +25,8 @@ p.image-text {
 	text-align: center;
 	padding-top: 10px;
 }
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
