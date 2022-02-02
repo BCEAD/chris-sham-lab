@@ -41,7 +41,7 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: bold;
 	color: #004d9d;
 }
@@ -128,7 +128,7 @@ h10 {
 .selected-publication {
 	margin-top: 10px;
 	margin-bottom: 5px;
-	font-size: 25px;
+	font-size: 30px;
 }
 	
 .publication-row {
