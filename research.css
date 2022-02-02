@@ -51,11 +51,19 @@ h5 {
 	text-align: center;
 }
 
+.research-topic {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1300px;
+}
+
 h10 {
 	font-size: 30px;
 	color: #004d9d;
 	font-weight: bold;
 	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*table styling begins heree*/
