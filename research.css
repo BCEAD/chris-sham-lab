@@ -76,6 +76,7 @@ table {
 	max-width: 1300px;
 	color: #2e323b;
 	text-align: justify;
+	font-size: 15px;
 }
 
 
@@ -170,6 +171,8 @@ h5 {
 }
 
 h10 {
-	font-size: 25px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 }
