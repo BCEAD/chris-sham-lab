@@ -26,7 +26,12 @@ body, html {
 }
 */
 
-	
+h2 {
+	font-size: 60px;
+	color: #004d9d;
+	font-weight: bold;
+	text-align: center;
+}	
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -88,6 +93,9 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
 .trial123 {
 	display: none;
+}
+h2 {
+	font-size: 30px;
 }
 }
 	
