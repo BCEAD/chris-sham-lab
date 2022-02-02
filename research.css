@@ -33,6 +33,11 @@ body, html {
 	transform: translate (-50%, 0);
 }
 
+.research-overview {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .research-overview p {
 	margin-top: 10px;
 	text-align: justify; 
@@ -147,9 +152,5 @@ td {
 
 h5 {
 	font-size: 30px;
-}
-
-.research-overview p { 
-	font-size: 12px;
 }
 }
