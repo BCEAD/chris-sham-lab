@@ -144,4 +144,11 @@ td {
 .trial123 {
 	display: none;
 }
+
+h5 {
+	font-size: 30px;
+}
+
+.research-overview p { 
+	font-size: 12px;
 }
