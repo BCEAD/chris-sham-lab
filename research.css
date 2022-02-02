@@ -60,11 +60,11 @@ h10 {
 
 /*table styling begins heree*/
 table {
-	padding: 15px;
+	padding: 0 15px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 200px;
-	margin-top: 100px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	max-width: 1300px;
 	color: #2e323b;
 	text-align: justify;
