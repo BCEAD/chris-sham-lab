@@ -27,19 +27,21 @@
 	padding-left: 10px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
 	left: 50%;
 	transform: translate (-50%, 0);
 }
 
 .research-fellow {
-	margin-top: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
 	text-align: justify;
 }
 
 .students {
-	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
 	text-align: justify;
 }
 
