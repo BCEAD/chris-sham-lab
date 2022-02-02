@@ -184,7 +184,7 @@ html {
 #welcome {
 	text-align: justify;
 	color: #003D7C;
-	font-size: 30px;
+	font-size: 60px;
 	font-weight: bold;
 	padding-bottom: 15px;
 }
@@ -206,7 +206,7 @@ html {
 }
 
 #welcome {
-	font-size: 15px;
+	font-size: 25px;
 }
 }
 
