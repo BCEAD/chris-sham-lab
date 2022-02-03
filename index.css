@@ -216,7 +216,8 @@ table {
 
 
 .container5 {
-  position: relative;
+  	position: relative;
+	max-width: 1000px;
 }
 
 /* Hide the images by default */
