@@ -200,6 +200,14 @@ html {
 	padding-top: 20px;
 }
 
+.streptococcus {
+	text-align: center;
+	color: #003D7C;
+	font-size: 60px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
 table {
 	padding: 0 15px;
 	margin-right: auto;
@@ -231,6 +239,11 @@ td {
 
 #welcome {
 	font-size: 25px;
+}
+	
+.streptococcus {
+	font-size: 25px;
+}
 }
 }
 
