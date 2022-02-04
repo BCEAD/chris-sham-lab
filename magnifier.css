@@ -4,7 +4,7 @@
 .magnifier {
   overflow: hidden;
   position: relative;
-  float: left;
+  text-align: justify;
 }
 
 /* style for the DIV that is the magnifier lens */
