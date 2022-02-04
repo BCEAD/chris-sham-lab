@@ -225,5 +225,10 @@ td {
 #welcome {
 	font-size: 25px;
 }
+
+.magnifier {
+	height: 250px;
+	width: 260px;
+}
 }
 
