@@ -4,7 +4,6 @@
 .magnifier {
   overflow: hidden;
   position: relative;
-  text-align: justify;
 }
 
 /* style for the DIV that is the magnifier lens */
@@ -28,7 +27,7 @@
 }
 
 @media screen and (max-width: 500px) {
-.magnifier {
+.magnifier img {
 	height: 125px;
 	width: 130px;
 }
