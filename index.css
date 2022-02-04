@@ -212,6 +212,14 @@ table {
 	font-size: 15px;
 }
 
+#mag {
+	
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+}
+
 td {
 	padding: 10px;
 }
