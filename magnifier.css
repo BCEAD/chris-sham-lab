@@ -10,8 +10,8 @@
 .maglens {
   position: absolute;
   overflow: hidden;
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
 }
 
 /* style for the small IMG that appears on the page */
