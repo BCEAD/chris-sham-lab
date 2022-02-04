@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="styleguide.css" type="text/css" />
     <link rel="stylesheet" href="font-awesome.min.css" type="text/css" />
 	<link href="index.css" rel="stylesheet" type="text/css">
+	  
+	<link type="text/css" href="magnifier.css" rel="stylesheet">
+	<script type="text/javascript" src="magnifier.js"></script>
+	  
 <script src="v5.0.2.js" type="text/javascript"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1546804-1"></script>
@@ -413,79 +417,22 @@ function showSlides() {
 <table>
 	<tr>
 		<td style="width:50%">
-			<div class="container5">
-  			<div class="image">
-			<img src="front-image3.png" width="100%" height="auto">
+			<div class="magnifier" style="width: 50px; height: 50px;">
+  			<div class="maglens">
+			<img src="front-image3.png" class="maglarge" width="100%" height="auto">
+			</div>
+			</div>
 			<br>
 			<p><b>Fig 3.</b> &nbsp;Strains expressing different capsule types exhibit variable colony morphology.</p>
-			</div>
-			</div>
-			<div class="loupe"></div>
+			
 		</td>
 	</tr>
 </table>
 	      
-<script>
-	var $loupe = $(".loupe"),
-    loupeWidth = $loupe.width(),
-    loupeHeight = $loupe.height();
 
-$(document).on("mouseenter", ".image", function (e) {
-    var $currImage = $(this),
-        $img = $('<img/>')
-        .attr('src', $('img', this).attr("src"))
-        .css({ 'width': $currImage.width() * 2, 'height': $currImage.height() * 2 });
-
-    $loupe.html($img).fadeIn(100);
-    
-    $(document).on("mousemove",moveHandler);
-                   
-    function moveHandler(e) {
-        var imageOffset = $currImage.offset(),
-            fx = imageOffset.left - loupeWidth / 2,
-            fy = imageOffset.top - loupeHeight / 2,
-            fh = imageOffset.top + $currImage.height() + loupeHeight / 2,
-            fw = imageOffset.left + $currImage.width() + loupeWidth / 2;
-        
-        $loupe.css({
-            'left': e.pageX - 75,
-            'top': e.pageY - 75
-        });
-
-        var loupeOffset = $loupe.offset(),
-            lx = loupeOffset.left,
-            ly = loupeOffset.top,
-            lw = lx + loupeWidth,
-            lh = ly + loupeHeight,
-            bigy = (ly - loupeHeight / 4 - fy) * 2,
-            bigx = (lx - loupeWidth / 4 - fx) * 2;
-
-        $img.css({ 'left': -bigx, 'top': -bigy });
-
-        if (lx < fx || lh > fh || ly < fy || lw > fw) {
-            $img.remove();
-            $(document).off("mousemove",moveHandler);
-            $loupe.fadeOut(100);
-        }
-    }
-});
-
-</script>
 	     
    
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
+     
 	      
 	      
 	      
