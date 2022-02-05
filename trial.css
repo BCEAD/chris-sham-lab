@@ -23,8 +23,7 @@
 .image-text {
 	font-size: 15px;
 	text-align: center;
-	padding-top: 10px;
-	color: #004d9d;
+	padding-top: 15px;
 }
 
 @media screen and (max-width: 500px) {
