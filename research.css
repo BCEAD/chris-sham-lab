@@ -44,30 +44,21 @@ body, html {
 	font-size: 15px; 
 }
 
-h {
+
+h5 {
 	font-size: 60px;
 	color: #004d9d;
 	font-weight: bold;
 	text-align: center;
 }
 
-
-h5 {
+h {
 	font-size: 30px;
 	color: #004d9d;
 	font-weight: bold;
 	text-align: center;
 }
 
-
-h10 {
-	font-size: 30px;
-	color: #004d9d;
-	font-weight: bold;
-	text-align: center;
-	margin-left: 10px;
-	margin-right: 10px;
-}
 
 /*table styling begins heree*/
 table {
@@ -173,9 +164,7 @@ h5 {
 	font-size: 30px;
 }
 
-h10 {
+h {
 	font-size: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 }
