@@ -46,10 +46,10 @@ section {
 }
 
 .team:hover img {
-    width: 200px;
-    height: 300px;
+    width: 160px;
+    height: 240px;
     border: 2px solid var(--primary);
-    left: 60px;
+    left: 80px;
     top: 40px;
 }
 
