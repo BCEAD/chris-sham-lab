@@ -44,19 +44,21 @@ body, html {
 	font-size: 15px; 
 }
 
-h5 {
+h {
 	font-size: 60px;
 	color: #004d9d;
 	font-weight: bold;
 	text-align: center;
 }
 
-h15 {
+
+h5 {
 	font-size: 30px;
 	color: #004d9d;
 	font-weight: bold;
 	text-align: center;
 }
+
 
 h10 {
 	font-size: 30px;
