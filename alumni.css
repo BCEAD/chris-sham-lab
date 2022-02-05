@@ -170,4 +170,9 @@ h6{
 .trial123 {
 	display: none;
 }
+h10, h5 {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 }
