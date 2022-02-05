@@ -73,6 +73,11 @@ table {
 	font-size: 15px;
 }
 
+table p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 
 td {
 	padding: 0 10px 10px 10px;
