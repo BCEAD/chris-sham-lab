@@ -212,6 +212,7 @@ html {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1300px;
+	
 }
 
 .column5 {
@@ -220,11 +221,11 @@ html {
   	padding: 10px;
 }
 
-#123 {
+.column5 left {
 	width: 30%;
 }
 
-#456 {
+.column right {
 	width: 70%;
 }
 
