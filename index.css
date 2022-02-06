@@ -232,22 +232,6 @@ html {
 	padding-top: 10px;
 }
 
-table {
-	padding: 0 15px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	max-width: 1300px;
-	color: #2e323b;
-	text-align: justify;
-	font-size: 15px;
-}
-
-td {
-	padding: 10px;
-}
-
 
 @media screen and (max-width: 500px) {
 .trial123 {
@@ -267,32 +251,11 @@ td {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-	
-table {
-	width:100%;
-	margin-top: 30px;
-	font-size: 12px;
-}
-	
-td {
-	display:block;
-    	width:100%;
-	padding: 10px;
-	text-align: justify;
-}
-	
+		
 .img-text {
 	margin-right: 10px;
 	margin-left: 10px;
 }
-
-/*.front-img {
-	width: 340px;
-	height: 300px;
-	text-align: center;
-	margin-right: 10px;
-	margin-left: 10px;
-}*/
 }
 
 
