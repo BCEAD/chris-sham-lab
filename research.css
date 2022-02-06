@@ -73,6 +73,20 @@ h {
 	text-align: justify;
 }
 
+.row6 {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1300px;
+	
+}
+
+.column6 {
+  	float: left;
+  	width: 50%;
+  	padding: 10px;
+	text-align: justify;
+}
+
 .hidden {
 	visibility: hidden;
 }
