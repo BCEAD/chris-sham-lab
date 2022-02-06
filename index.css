@@ -246,6 +246,10 @@ html {
 	padding-top: 10px;
 }
 
+.hidden {
+	display: hidden;
+}
+
 
 @media screen and (max-width: 500px) {
 .trial123 {
