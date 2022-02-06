@@ -226,7 +226,10 @@ html {
 	margin-left: auto;
 	max-width: 1300px;
 	margin-bottom: 100px;
-	
+}
+
+.column6 {
+  	padding: 10px;
 }
 
 .img-text {
@@ -252,6 +255,12 @@ html {
 }
 	
 .column5 {
+ 	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+.column6 {
  	width: 100%;
 	margin-left: 10px;
 	margin-right: 10px;
