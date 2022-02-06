@@ -208,6 +208,12 @@ html {
 	padding-bottom: 15px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
 table {
 	padding: 0 15px;
 	margin-right: auto;
@@ -236,6 +242,10 @@ td {
 	
 .streptococcus {
 	font-size: 25px;
+}
+	
+.column {
+  width: 100%;
 }
 	
 table {
