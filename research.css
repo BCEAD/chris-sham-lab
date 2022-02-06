@@ -59,6 +59,18 @@ h {
 	text-align: center;
 }
 
+.row5 {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1300px;
+	
+}
+
+.column5 {
+  	float: left;
+  	padding: 10px;
+}
+
 
 /*table styling begins heree*/
 table {
@@ -171,5 +183,27 @@ h5 {
 
 h {
 	font-size: 20px;
+}
+	
+.column5 {
+ 	width: 90%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+.column6 {
+ 	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+.front-img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+		
+.img-text {
+	margin-right: 10px;
+	margin-left: 10px;
 }
 }
