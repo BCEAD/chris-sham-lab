@@ -208,10 +208,13 @@ html {
 	padding-bottom: 15px;
 }
 
-.column {
+,row {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1300px;
+}
+
+.column {
   	float: left;
   	width: 50%;
   	padding: 10px;
