@@ -220,6 +220,14 @@ html {
   	padding: 10px;
 }
 
+#123 {
+	width: 30%;
+}
+
+#456 {
+	width: 70%;
+}
+
 .img-text {
 	padding-top: 10px;
 }
