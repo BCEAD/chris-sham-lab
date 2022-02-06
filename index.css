@@ -250,7 +250,13 @@ td {
 	display:block;
     	width:100%;
 	padding: 10px;
-}	
+}
+	
+.front-img {
+	width: 300px;
+	height: 280px;
+	text-align: center;
+}
 }
 
 
