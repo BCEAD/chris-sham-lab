@@ -230,18 +230,6 @@ html {
 	
 }
 
-.column left {
-	float: left;
-	width: 30%;
-	padding: 10px;
-}
-
-.column right {
-	float: left;
-	width: 40%;
-	padding: 10px;
-}
-
 .img-text {
 	padding-top: 10px;
 }
