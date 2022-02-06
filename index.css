@@ -220,6 +220,10 @@ html {
   	padding: 10px;
 }
 
+.img-text {
+	padding-top: 10px;
+}
+
 table {
 	padding: 0 15px;
 	margin-right: auto;
