@@ -222,7 +222,15 @@ html {
   	padding: 10px;
 }
 
-.column5 left {
+.row6 {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1300px;
+	margin-bottom: 100px;
+	
+}
+
+.column left {
 	width: 30%;
 }
 
