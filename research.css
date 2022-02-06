@@ -64,7 +64,7 @@ h2 {
 	color: #004d9d;
 	font-weight: bold;
 	text-align: justify;
-	padding-top: 10px;
+	padding-top: 50px;
 }
 
 .row5 {
@@ -201,7 +201,7 @@ td {
 }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
 h {
 	display: none;
 }
