@@ -232,10 +232,12 @@ html {
 
 .column left {
 	width: 30%;
+	padding: 10px;
 }
 
 .column right {
-	width: 70%;
+	width: 60%;
+	padding: 10px;
 }
 
 .img-text {
