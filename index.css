@@ -231,11 +231,13 @@ html {
 }
 
 .column left {
+	float: left;
 	width: 30%;
 	padding: 10px;
 }
 
 .column right {
+	float: left;
 	width: 60%;
 	padding: 10px;
 }
