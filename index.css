@@ -237,9 +237,6 @@ td {
 .streptococcus {
 	font-size: 25px;
 }
-}
-	
-@media screen and (max-width: 450px) {
 	
 table {
 	width:100%;
@@ -250,10 +247,10 @@ td {
 	display:block;
     	width:100%;
 	padding: 10px;
+	text-align: left;
 }
 	
 .img-text {
-	text-align: left;
 	margin-right: 10px;
 	margin-left: 10px;
 }
