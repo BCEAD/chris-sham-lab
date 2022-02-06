@@ -254,6 +254,12 @@ td {
     	width:100%;
 	padding: 10px;
 }
+	
+td p {
+	display:block;
+    	width:100%;
+	padding: 10px;
+}
 
 .front-img {
 	width: 340px;
