@@ -71,6 +71,11 @@ h {
   	padding: 10px;
 }
 
+.hidden {
+	visibility: hidden;
+}
+
+
 
 /*table styling begins heree*/
 table {
