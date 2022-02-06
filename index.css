@@ -208,13 +208,13 @@ html {
 	padding-bottom: 15px;
 }
 
-.row {
+.row5 {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1300px;
 }
 
-.column {
+.column5 {
   	float: left;
   	width: 50%;
   	padding: 10px;
@@ -254,7 +254,7 @@ td {
 	font-size: 25px;
 }
 	
-.column {
+.column5 {
  	width: 100%;
 	margin-left: 10px;
 	margin-right: 10px;
