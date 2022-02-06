@@ -247,7 +247,7 @@ html {
 }
 
 .hidden {
-	display: hidden;
+	visibility: hidden;
 }
 
 
