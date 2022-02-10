@@ -244,7 +244,8 @@ html {
 
 @media screen and (max-width: 500px) {
 .trial123 {
-	display: none;
+	width: 30%;
+	height: auto;
 }
 
 #welcome {
