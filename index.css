@@ -255,6 +255,10 @@ html {
 	font-size: 25px;
 }
 	
+.row6 {
+	display: none;
+}
+	
 .column5 {
  	width: 90%;
 	margin-left: 10px;
