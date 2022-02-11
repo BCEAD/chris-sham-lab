@@ -233,6 +233,19 @@ html {
   	padding: 10px;
 }
 
+.row7 {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1300px;
+	
+}
+
+.column7 {
+  	float: left;
+  	width: 50%;
+  	padding: 10px;
+}
+
 .img-text {
 	padding-top: 10px;
 }
@@ -241,6 +254,10 @@ html {
 	visibility: hidden;
 }
 
+@media screen and (min-width: 500px) {
+.row7 {
+	display: none;
+}
 
 @media screen and (max-width: 500px) {
 .trial123 {
