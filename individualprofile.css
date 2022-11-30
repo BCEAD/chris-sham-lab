@@ -108,11 +108,14 @@ table tr td img {
 @media screen and (max-width: 800px) {
 td {
 	display: block;
-	width: 90%;
+	width: 100%;
 	background-color: white;
 }
 	
-
+table tr td img {
+	width: auto;
+	height: 410px;
+}
 	
 	
 	
