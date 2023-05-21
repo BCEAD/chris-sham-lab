@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris Sham Lab</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="v5.0.2.css" type="text/css" />
+    <link rel="stylesheet" href="styleguide.css" type="text/css" />
+    <link rel="stylesheet" href="font-awesome.min.css" type="text/css" />
+    <link href="individualprofile.css" rel="stylesheet" type="text/css">
+	<script src="v5.0.2.js" type="text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1546804-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-1546804-1');
+    </script>
+  </head>
+  <body>
+    <!-- SIDEBAR - OFF CANVAS - START -->
+    <div id="nus-sidebar-off-canvas" class="nus-sidebar-off-canvas offcanvas offcanvas-end flex-shrink-0" tabindex="-1" aria-labelledby="nus-sidebar-off-canvas">
+      <div class="header offcanvas-header">
+        <h5 class="offcanvas-title">Sidebar</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="body offcanvas-body">
+        <div class="nus-module module_menu">
+          <div class="module-inner">
+            <h3 class="title">
+              <span>Main Menu</span>
+            </h3>
+            <div class="module-ct">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <a href="index.html" class="mnu-lvl-1 btn align-items-center">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a href="research.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">Research</a>
+                </li> 
+                <li class="mb-1">
+                  <a href="people.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">People</a>
+                </li>
+                <li class="mb-1">
+                  <a href="publication.html" class="mnu-lvl-1 btn align-items-center">Publication</a>
+                </li>                
+                <li class="mb-1">
+                  <a href="gallery.html" class="mnu-lvl-1 btn align-items-center">Gallery</a>
+                </li>
+				<li class="mb-1">
+                  <a href="join-us.html" class="mnu-lvl-1 btn align-items-center">Join Us</a>
+                </li>   
+                <li class="mb-1">
+                  <a href="contact.html" class="mnu-lvl-1 btn align-items-center">Contact</a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR MOBILE - OFF CANVAS - END -->
+    <div class="nus-body-container">
+      <div class="nus-wrapper">
+        <!-- HEADER -->
+        <header class="nus-header">
+          <!-- set class='microsite' to get #eee background. -->
+          <div class="container-lg">
+            <div class="row justify-content-evenly">
+              <!-- LOGO SECTION - START -->
+              <div class="col nus-logo">
+                <div class="d-flex flex-row">
+                  <!-- NUS LOGO -->
+                  <div>
+                    <a class="navbar-brand" href="//www.nus.edu.sg">
+                      <img src="logo.png" alt="NUS" />
+                    </a>
+                  </div>
+                  <!-- BORDER , .nus-dcnm (set own height and margin border CSS in template.css -->
+                  <div class="nus-faculty-border nus-dcnm">&nbsp;</div>
+                  <!-- FACULTY SUB-LOGO -->
+                  <div class="trial123">
+                    <a href="https://medicine.nus.edu.sg/mbio/index.html">
+                      <img src="dept-sublogo5.png" alt="SubLogo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- LOGO SECTION - END -->
+              <div class="col d-none d-lg-block">
+                <!-- QUICKLINKS -->
+                <div class="nus-quicklinks">
+                  <ul class="box nav nav-pills">
+                    <li>
+                      <a href="https://news.nus.edu.sg/">News</a>
+                    </li>
+                    <li>
+                      <a href="https://libportal.nus.edu.sg/frontend/index">Library</a>
+                    </li>
+                    <li>
+                      <a href="https://myportal.nus.edu.sg/studentportal/alerts/all/">Student</a>
+                    </li>
+					<li>
+                      <a href="https://www.nus.edu.sg/inside-nus">Staff</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //QUICKLINKS -->
+              </div>
+              <!-- SEARCH & BURGER Mobile-->
+              <div class="col nus-mobile-nav d-block d-lg-none">
+                <ul>
+                  <li>
+                    <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+                  </li>
+                  <li>
+                    <a class="faicon fa-mobile-menu btn-toggle off-canvas-toggle" data-bs-toggle="offcanvas" href="#nus-sidebar-off-canvas">&nbsp;</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </header>
+        <!-- //HEADER -->
+        <!-- MAIN NAVIGATION Desktop-->
+        <nav class="navbar navbar-expand-lg nus-main-nav d-none d-lg-flex">
+          <div class="container-lg">
+            <!-- MAIN MENU - NUS - START -->
+            <div class="nus-megamenu d-none d-md-block ">
+              <ul class="nav navbar-nav level0">
+                <li >
+                  <a class="" href="index.html" data-target="#">Home</a>
+                </li>
+                <li data-id="113" data-level="1">
+                  <a class="" href="research.html" data-target="#">Research</a>
+				</li>
+                <li class="current active" data-id="114" data-level="1">
+                  <a class="" href="people.html" data-target="#">People</a>
+                </li>
+                <li data-id="115" data-level="1">
+                  <a class="" href="publication.html" data-target="#">Publication</a>
+                </li>
+                <li data-id="116" data-level="1">
+                  <a class="" href="gallery.html" data-target="#">Gallery</a>
+                </li>
+				<li data-id="117" data-level="1">
+                  <a class="" href="join-us.html" data-target="#">Join Us</a>
+                </li>
+                <li data-id="118" data-level="1">
+                  <a class="" href="contact.html" data-target="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- MAIN MENU - NUS - END -->
+            <!-- SEARCH BUTTON ICON Desktop - START -->
+            <div class="search-btn-box d-none d-lg-block">
+              <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+            </div>
+            <!-- SEARCH BUTTON ICON - END -->
+          </div>
+        </nav>
+        <!-- //MAIN NAVIGATION -->
+        <!-- SEARCH FORM Collapse-->
+        <div id="search-collapse" class="nus-search-box collapse">
+          <div class="container-lg py-3">
+            <div class="search">
+              <form action="https://www.google.com/search" method="get" class="form-inline form-search">
+                <input name="q" id="mod-search-searchword" class="form-control input-lg" type="text" placeholder="Search...">
+                <input type="hidden" name="domains" value="nus.edu.sg" />
+                <input type="hidden" name="sitesearch" value="nus.edu.sg" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- NUS SEARCH - ENDS -->
+
+        
+        <!-- CONTENT - START -->
+        <!--Contents code begins here-->
+<!--
+<div class="row" style=" margin-right: auto; margin-left: auto; margin-top: 50px; margin-bottom: 100px; max-width: 1300px; text-align: center; padding: 0px 10px">
+  	<div class="column left" >
+		<div class="profile-picture">
+		<img src="chris-sham.jpg" alt="chris sham" height="500px" width="400px">
+		</div>
+	</div>
+  	<div class="column right" style="background-color: #FFEEDB">
+		<div class="name">
+			<h1>
+				Dr. Chris Sham Lok-To (<i>PhD</i>)
+			</h1>
+			<h5>
+				Principal Investigator / Assistant Professor
+			</h5>
+			<p class="contact">
+			<i class="fa fa-fw fa-envelope-open"></i> miclts@nus.edu.sg <br>
+			<i class="fa fa-fw fa-phone"></i> +65 6601 6356
+			</p>
+			</div>
+		
+		<div class="academic-qualifications">
+			<h2>Academic Qualifications</h2>
+			<p>
+				PhD, Indiana University Bloomington, USA <br>
+				MPhil, the Chinese University of Hong Kong, Hong Kong SAR <br>
+				BSc, the Chinese University of Hong Kong, Hong Kong SAR
+			</p>
+		</div>
+		<div class="research-interest">
+				<h2>Research Interest</h2>
+			<div class="research-interest-paragraph">
+				<p><i>Streptococcus pneumoniae</i> is an important respiratory pathogen that causes more than two million deaths worldwide annually. Similar to many pathogenic bacteria, <i>S. pneumoniae</i> encases its cell envelope with capsular polysaccharide (CPS), which protects it from opsonophagocytosis and mucus clearance. Because of its importance in pathogenesis, all clinically relevant vaccines against <i>S. pneumoniae</i> target the CPS. There are over 90 serotypes identified in <i>S. pneumoniae</i>. The structural variance in CPS produced is attributed to the extreme diversity of enzymes located in the cps locus. Although these enzymes were identified decades ago, little is known about the molecular mechanisms governing their specificity, regulation, and function. Therefore, the long-term goal of our research program is to address this knowledge gap by investigating how specificity is determined for CPS enzymes.</p>
+			</div>
+		</div>
+		<div class="representative-publication">
+			<h2>Representative Publications</h2>
+			<p> 
+				1. <u>Sham LT</u>, Zheng S, Kruse AC, Bernhardt TG. 2018 Jun. Loss of Specificity Variants of WzxC Suggest that Substrate Recognition is Coupled with Transporter Opening in MOP-familly Flippases. <strong>Molecular Microbiology</strong>. <br><br>
+				2. Zheng S, <u>Sham LT</u>, Brock K, Robins WP, Mekalanos JJ, Marks DS, Bernhardt TG, Kruse AC. 2018 Jun. Structure and Function of the lipid II flippase MurJ from Escherichia coli. <strong>PNAS</strong>. 115:6709-14. <br><br>
+				3. Chamakura KR, <u>Sham LT</u>, Davis RM, Min L, Cho H, Ruiz N, Bernhardt TG, Young R (2017). A viral protein antibiotic inhibits lipid II flippase activity. <strong>Nature Microbiology</strong>, 2:1480-84. <br><br>
+				4. Meeske AJ, <u>Sham LT</u>, Kimsey H, Koo BM, Gross CA, Bernhardt TG, Rudner DZ. 2015. MurJ and a novel lipid II flippase are required for cell wall biogenesis in Bacillus subtilis. <strong>PNAS</strong>. 112:6437-42. <br><br>
+				5. <u>Sham LT</u>, Butler EK, Lebar MD, Kahne D, Bernhardt TG, Ruiz N. 2014. Bacterial cell wall. MurJ is the flippase of lipid-linked precursors of peptidoglycan biogenesis. <strong>Science</strong>. 345:220-2. <br><br>
+				6. <u>Sham LT</u>, Jensen KR, Bruce KE, Winkler ME. 2013. Involvement of FtsE ATPase and FtsX extracellular loops 1 and 2 in FtsEX-PcsB complex function in cell division of Streptococcus pneumoniae D39. <strong>mBio</strong>. 16:e00431-13. <br><br>
+				7. Kocaoglu O, Calvo RA, <u>Sham LT</u>, Cozy LM, Francis S, Lanning BR, Winkler ME, Kearns DB, Carlson EE. 2012. Selective penicillin binding protein imaging probes reveal substructure in bacterial cell division. <strong>ACS Chem Biol</strong>. 7:1746-53. <br><br>
+				8. <u>Sham LT</u>, Tsui HCT, Land AD, Barendt SM, Winkler ME. 2011. Recent advances in pneumococcal peptidoglycan biosynthesis suggest vaccine and antimicrobial targets. <strong>Curr Opin Microbiol</strong>. 15: 194-203. <br><br>
+				9. <u>Sham LT</u>, Barendt SM, Kopecky KE, Winkler ME. 2011. Essential PcsB putative peptidoglycan hydrolase interacts with the essential FtsXSpn cell division protein in Streptococcus pneumoniae. <strong>PNAS</strong>. 108:E1061-1069. <br><br>
+				10. Barendt SM, <u>Sham LT</u>, Winkler ME. 2011. Characterization of mutants deficient in the L,D-carboxypeptidase (DacB) and WalRKSpn (VicRK) regulon involved in peptidoglycan maturation of Streptococcus pneumoniae serotype 2 strain D39. <strong>J Bacteriol</strong>, 193: 2290-2300. <br><br>
+				11. Barendt SM, Land AD, <u>Sham LT</u>, Ng WL, Tsui HC, Arnold RJ, Winkler ME. 2009. Influences of capsule on cell shape and chain formation of wild-type and pcsB mutants of serotype 2 Streptococcus pneumoniae. <strong>J Bacteriol</strong>, 191: 3024-3040. <br><br>
+			</p>
+		</div>
+		<div class="all-publication">
+			<p><button class="button" onclick="window.location.href = 'https://scholar.google.com/citations?user=mriC-PcAAAAJ&hl=en';"> View All Publications </button></p>
+		</div>
+	</div>
+</div>
+-->
+	      
+	      <table>
+	<tr>
+		<td style="width:40%"><img src="sharifah.jpeg" width="100%" height="auto" alt="Sharifah Lubna Binte Mohammad Isa
+"></td>
+		<td>
+			<div class="name">
+			<h3>
+				Sharifah Lubna Binte Mohammad Isa
+			</h3>
+			<h5>
+				Undergraduate Student
+			</h5>
+			<p class="contact">
+			<i class="fa fa-fw fa-envelope-open"></i> sharifahlubna@u.nus.edu			
+			</p>
+		</div>
+		
+		<div class="academic-qualifications">
+			<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+			<p>
+				Bachelor of Science (Honours), Life Sciences, National University of Singapore
+			</p>
+		</div>
+		<div class="research-interest">
+			<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+			<div class="research-interest-paragraph">
+				<p>
+				I am studying the specificity of glycosyltransferases (GTs) which contributes to the various capsular polysaccharide (CPS) types of <i>treptococcus pneumoniae</i>, 
+        and the substrate specificity of its flippase.
+				</p>
+			</div>
+		</div>
+		<!--
+		<div class="selected-publication">
+			<h2><i class="fa fa-file-pdf-o"></i>&nbsp;Selected Publication</h2>
+			<p> 
+				1. <u>Sham LT</u>, Zheng S, Kruse AC, Bernhardt TG. 2018 Jun. Loss of Specificity Variants of WzxC Suggest that Substrate Recognition is Coupled with Transporter Opening in MOP-familly Flippases. <strong>Molecular Microbiology</strong>. <br><br>
+				2. Zheng S, <u>Sham LT</u>, Brock K, Robins WP, Mekalanos JJ, Marks DS, Bernhardt TG, Kruse AC. 2018 Jun. Structure and Function of the lipid II flippase MurJ from Escherichia coli. <strong>PNAS</strong>. 115:6709-14. <br><br>
+			</p>
+		</div>
+		
+		
+		<div class="all-publication">
+			<p><button class="button" onclick="window.location.href = 'https://scholar.google.com/citations?user=mriC-PcAAAAJ&hl=en';"> View All Publications </button></p>
+		</div>
+		-->
+		</td>
+	</tr>
+</table>
+		  
+		  
+
+
+		
+
+	
+	
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+        <!-- CONTENT - END -->
+        <!-- NUS BREADCRUMBS - START -->
+        <div class="nus-breadcrumbs">
+          <div class="container-lg">
+            <ul>
+              <li>
+                <span class="icon faicon fa-location"></span>
+                <a href="people.html">People</a>
+              </li>
+              <li>Liu Yao</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NUS BREADCRUMBS - END -->
+        <!-- FOOTER - START -->
+        <footer class="nus-footer">
+          <!-- FOOT NAVIGATION - START -->
+          <div class="container-lg">
+            <div class="row wrapper navigator">
+              <div class="text-center">
+                <div class="nus-social-box">
+                  <div class="nus-module module">
+                    <div class="module-inner">
+                      <h3 class="title">
+                        <span>Bacterial Cell Envelope and Antibiotic Development (BCEAD) Laboratory</span>
+                      </h3>
+                      <div class="module-ct">
+                        <ul class="nus-contact-us">
+                          <li>
+                            <span class="icon faicon fa-address"></span>MD4 5 Science Drive 2  <br />Singapore 117545
+                          <li>
+                            <span class="icon faicon fa-phone"></span>+65 6601 2097
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-email"></span>
+                            <a href="mailto:xxx@nus.edu.sg">mictsj@nus.edu.sg</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nus-module module footnav-alt">
+                    <div class="module-inner">
+                      <div class="module-ct">
+                        <div>
+			<!--
+                          <a href="http://www.facebook.com/nus.singapore" target="_blank">
+                            <img src="facebook.png" alt="facebook" width="32" height="32">
+                          </a>&nbsp; <a href="http://twitter.com/NUSingapore" target="_blank">
+                            <img src="twitter.png" alt="twitter" width="32" height="32">
+                          </a>&nbsp; <a href="http://www.youtube.com/nuscast" target="_blank">
+                            <img src="youtube.png" alt="youtube" width="32" height="32">
+                          </a>
+			 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOT NAVIGATION - END -->
+          <!-- FOOTER - COPYRIGHT - START -->
+          <div class="copyright">
+            <div class="container-lg">
+              <div class="row">
+                <div class="info">&copy; <a href="http://www.nus.edu.sg/">National University of Singapore</a>. All Rights Reserved. </div>
+                <div>
+                  <ul class="nav-copyright">
+                    <li>
+                      <a href="http://www.nus.edu.sg/legal-information-notices">Legal</a>
+                    </li>
+                    <li class="bullet">
+                      <a href="#">Branding guidelines</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER - COPYRIGHT - END -->
+        </footer>
+        <!-- FOOTER - END -->
+      </div>
+      <!-- NUS WRAPPER -->
+    </div>
+    <!-- NUS BODY container-lg -->
+    <a name="footer"></a>
+  </body>
+</html>
