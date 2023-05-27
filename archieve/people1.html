@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris Sham Lab</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="v5.0.2.css" type="text/css" />
+    <link rel="stylesheet" href="styleguide.css" type="text/css" />
+    <link rel="stylesheet" href="font-awesome.min.css" type="text/css" />
+    <link href="people.css" rel="stylesheet" type="text/css">
+	<script src="v5.0.2.js" type="text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1546804-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-1546804-1');
+    </script>
+  </head>
+  <body>
+    <!-- SIDEBAR - OFF CANVAS - START -->
+    <div id="nus-sidebar-off-canvas" class="nus-sidebar-off-canvas offcanvas offcanvas-end flex-shrink-0" tabindex="-1" aria-labelledby="nus-sidebar-off-canvas">
+      <div class="header offcanvas-header">
+        <h5 class="offcanvas-title">Sidebar</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="body offcanvas-body">
+        <div class="nus-module module_menu">
+          <div class="module-inner">
+            <h3 class="title">
+              <span>Main Menu</span>
+            </h3>
+            <div class="module-ct">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <a href="index.html" class="mnu-lvl-1 btn align-items-center">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a href="research.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">Research</a>
+                </li> 
+                <li class="mb-1">
+                  <a href="people.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">People</a>
+                </li>
+
+                <li class="mb-1">
+                  <a href="publication.html" class="mnu-lvl-1 btn align-items-center">Publication</a>
+                </li>                
+                <li class="mb-1">
+                  <a href="gallery.html" class="mnu-lvl-1 btn align-items-center">Gallery</a>
+                </li>
+				<li class="mb-1">
+                  <a href="join-us.html" class="mnu-lvl-1 btn align-items-center">Join Us</a>
+                </li> 
+                <li class="mb-1">
+                  <a href="contact.html" class="mnu-lvl-1 btn align-items-center">Contact</a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR MOBILE - OFF CANVAS - END -->
+    <div class="nus-body-container">
+      <div class="nus-wrapper">
+        <!-- HEADER -->
+        <header class="nus-header">
+          <!-- set class='microsite' to get #eee background. -->
+          <div class="container-lg">
+            <div class="row justify-content-evenly">
+              <!-- LOGO SECTION - START -->
+              <div class="col nus-logo">
+                <div class="d-flex flex-row">
+                  <!-- NUS LOGO -->
+                  <div>
+                    <a class="navbar-brand" href="//www.nus.edu.sg">
+                      <img src="logo.png" alt="NUS" />
+                    </a>
+                  </div>
+                  <!-- BORDER , .nus-dcnm (set own height and margin border CSS in template.css -->
+                  <div class="nus-faculty-border nus-dcnm">&nbsp;</div>
+                  <!-- FACULTY SUB-LOGO -->
+                  <div class="trial123">
+                    <a href="https://medicine.nus.edu.sg/mbio/index.html">
+                      <img src="dept-sublogo5.png" alt="SubLogo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- LOGO SECTION - END -->
+              <div class="col d-none d-lg-block">
+                <!-- QUICKLINKS -->
+                <div class="nus-quicklinks">
+                  <ul class="box nav nav-pills">
+                    <li>
+                      <a href="https://news.nus.edu.sg/">News</a>
+                    </li>
+                    <li>
+                      <a href="https://libportal.nus.edu.sg/frontend/index">Library</a>
+                    </li>
+                    <li>
+                      <a href="https://myportal.nus.edu.sg/studentportal/alerts/all/">Student</a>
+                    </li>
+					<li>
+                      <a href="https://www.nus.edu.sg/inside-nus">Staff</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //QUICKLINKS -->
+              </div>
+              <!-- SEARCH & BURGER Mobile-->
+              <div class="col nus-mobile-nav d-block d-lg-none">
+                <ul>
+                  <li>
+                    <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+                  </li>
+                  <li>
+                    <a class="faicon fa-mobile-menu btn-toggle off-canvas-toggle" data-bs-toggle="offcanvas" href="#nus-sidebar-off-canvas">&nbsp;</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </header>
+        <!-- //HEADER -->
+        <!-- MAIN NAVIGATION Desktop-->
+        <nav class="navbar navbar-expand-lg nus-main-nav d-none d-lg-flex">
+          <div class="container-lg">
+            <!-- MAIN MENU - NUS - START -->
+            <div class="nus-megamenu d-none d-md-block ">
+              <ul class="nav navbar-nav level0">
+                <li >
+                  <a class="" href="index.html" data-target="#">Home</a>
+                </li>
+                <li data-id="113" data-level="1">
+                  <a class="" href="research.html" data-target="#">Research</a>
+				</li>
+                <li class="current active" data-id="114" data-level="1">
+                  <a class="" href="people1.html" data-target="#">People</a>
+                </li>
+                <li data-id="115" data-level="1">
+                  <a class="" href="publication.html" data-target="#">Publication</a>
+                </li>
+                <li data-id="116" data-level="1">
+                  <a class="" href="gallery.html" data-target="#">Gallery</a>
+                </li>
+				<li data-id="117" data-level="1">
+                  <a class="" href="join-us.html" data-target="#">Join Us</a>
+                </li>
+                <li data-id="118" data-level="1">
+                  <a class="" href="contact.html" data-target="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- MAIN MENU - NUS - END -->
+            <!-- SEARCH BUTTON ICON Desktop - START -->
+            <div class="search-btn-box d-none d-lg-block">
+              <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+            </div>
+            <!-- SEARCH BUTTON ICON - END -->
+          </div>
+        </nav>
+        <!-- //MAIN NAVIGATION -->
+        <!-- SEARCH FORM Collapse-->
+        <div id="search-collapse" class="nus-search-box collapse">
+          <div class="container-lg py-3">
+            <div class="search">
+              <form action="https://www.google.com/search" method="get" class="form-inline form-search">
+                <input name="q" id="mod-search-searchword" class="form-control input-lg" type="text" placeholder="Search...">
+                <input type="hidden" name="domains" value="nus.edu.sg" />
+                <input type="hidden" name="sitesearch" value="nus.edu.sg" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- NUS SEARCH - ENDS -->
+
+        
+        <!-- CONTENT - START -->
+        <div class="nus-banner">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">	
+				<!--Section 2: This is the section for website banner-->
+				<div class="banner-image"></div>
+            </div>
+          </div>
+        </div>
+ 
+
+<div class="meet-the-team">
+	<h10>Meet the Team</h10>
+</div>
+		  
+		  
+<div class="principal-investigator">
+	<h9>Principal Investigator</h9>
+</div>
+
+<table>
+	<tr>
+		<td><img src="chris-sham.jpg" alt=""></td>
+		<td>
+			<div class="name">
+			<h3>
+				Dr. Chris Sham Lok-To (<i>PhD</i>)
+			</h3>
+			<h5>
+				Principal Investigator / Assistant Professor
+			</h5>
+			<p class="contact">
+			<i class="fa fa-fw fa-envelope-open"></i> miclts@nus.edu.sg <br>
+			<i class="fa fa-fw fa-phone"></i> +65 6601 6356
+			</p>
+		</div>
+		
+		<div class="academic-qualifications">
+			<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+			<p>
+				Ph.D., Indiana University Bloomington, USA <br>
+				M.Phil., the Chinese University of Hong Kong, Hong Kong SAR <br>
+				B.Sc., the Chinese University of Hong Kong, Hong Kong SAR
+			</p>
+		</div>
+		<div class="research-interest">
+			<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+			<div class="research-interest-paragraph">
+				<p><i>Streptococcus pneumoniae</i> is an important respiratory pathogen that causes more than two million deaths worldwide annually. Similar to many pathogenic bacteria, <i>S. pneumoniae</i> encases its cell envelope with capsular polysaccharide (CPS), which protects it from opsonophagocytosis and mucus clearance. Because of its importance in pathogenesis, all clinically relevant vaccines against <i>S. pneumoniae</i> target the CPS. There are over 90 serotypes identified in <i>S. pneumoniae</i>. The structural variance in CPS produced is attributed to the extreme diversity of enzymes located in the cps locus. Although these enzymes were identified decades ago, little is known about the molecular mechanisms governing their specificity, regulation, and function. Therefore, the long-term goal of our research program is to address this knowledge gap by investigating how specificity is determined for CPS enzymes.</p>
+			</div>
+		</div>
+		
+		<div class="all-publication">
+			<p><button class="button" onclick="window.location.href = 'https://scholar.google.com/citations?user=mriC-PcAAAAJ&hl=en';"> View All Publications </button></p>
+		</div>
+		</td>
+	</tr>
+</table>
+		  
+		  
+<div class="lab-members">
+	<h9>Current Lab Member</h9>
+</div>
+		  
+<table>
+	<tr>
+		<td><img src="justin-zik.png" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Zik, Justin Joseph (<i>PhD</i>)</h3>
+				<h5>Research Fellow</h5>
+					<p class="contact">
+					<i class="fa fa-fw fa-envelope-open"></i> zik@nus.edu.sg
+					</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				Ph.D., University of California, Berkeley, US <br>
+				B.Sc., University of Wisconsin-Madison, US
+				</p>
+			</div>
+			
+		<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p>I'm interested in the molecular mechanisms governing surface polysaccharide biosynthesis in bacteria. Specifically, I'm using the capsular polysaccharide (CPS) biosynthesis pathway of <i>Streptococcus pneumoniae</i> to study how the Wzy polymerase functions to assemble mature CPS from individual repeat units, and how the CpsCD co-polymerase modulates this activity.</p>
+				</div>
+		</div>
+		</td>
+	</tr>
+</table>
+		  
+<table>
+	<tr>
+		<td><img src="rei-nakamoto.jpg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Rei Nakamoto</h3>
+				<h5>Research Assistant / Graduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> rei@nus.edu.sg
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				B.Sc., Biomedical Science (Infectious disease), University of Edinburgh, UK
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p>I work on understanding how the tyrosine kinase system regulates capsular polysaccharide synthesis in <i>Streptococcus pneumoniae</i>. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>	
+		  
+<table>
+	<tr>
+		<td><img src="wan-zhen.jpg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Chua Wan Zhen </h3>
+				<h5>Research Assistant / Graduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> e0007578@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				B.Sc., Life Sciences, National University of Singapore
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p><i>Streptococcus pneumoniae</i> can produce more than a hundred types of structurally distinct capsular polysaccharides (CPS). The CpsJ flippase is responsible for transporting the lipid-linked CPS precursors across the cell membrane during capsule biosynthesis. My work involves understanding the substrate specificity of the capsule flippase of the pneumococcus.</p>
+				</div>
+			</div>
+		</td>
+	</tr>	
+</table>	
+		  
+<table>
+	<tr>
+		<td><img src="su-tong.jpg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Su Tong</h3>
+				<h5>Research Assistant / Graduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> e0006319@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				B.Sc., Life Sciences, National University of Singapore
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p>The capsular polysaccharide (CPS) of <i>Streptococcus pneumoniae</i> is largely diverse, and a major contributor to this, is the plethora of glycosyltransferases (GTs) that are present in the CPS synthesis pathway. GTs are enzymes that transfer sugars from an activated sugar donor to a wide range of acceptors. My work mainly focuses on studying the GT specificity, by using <i>S. pneumoniae</i> as our model organism, and aim to assist glycoengineering efforts to generate molecules with desired sugar composition and linkages.</p>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+	
+<table>
+	<tr>
+		<td><img src="jia-hui.jpeg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Chen Jia Hui</h3>
+				<h5>Research Assistant / Graduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> e0006861@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				M.Sc., Life Sciences, National University of Singapore <br>
+				B.Sc., Life Sciences, National University of Singapore
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p> Transcription factors of the cps locus promoter in <i>Streptococcus pneumoniae</i>.
+				Epistasis-sequencing (E-seq), a method developed to identify synthetic viable pairs in <i>S. pneumoniae</i>.
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			</div>
+			</div>
+		</td>
+	</tr>
+</table>
+	
+<table>
+	<tr>
+		<td><img src="jade-chun.jpg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Chun Ye Yu (Jade)</h3>
+				<h5>Graduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> e0053011@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				B.Sc., Life Sciences, National University of Singapore
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p> I am investigating whether the diverse pneumococcal capsules may stimulate the host’s innate and adaptive responses differently.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			</div>
+			</div>
+		</td>
+	</tr>
+</table>	
+	
+<table>
+	<tr>
+		<td><img src="millie-wong.jpg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Wong Ming Hui, Millie</h3>
+				<h5>Undergraduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> millie.wong@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				I'm a Year 4/ final year undergrad and will be graduating from NUS with a Bachelor in Science (Life Science major, Biomedical Science specialisation) in May/June 2022.
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p> I am studying the neuraminidases in <i>Streptococcus pneumoniae</i> and its contribution to the virulence of pathogen through the desialylation of host cells.</p>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+	
+<table>
+	<tr>
+		<td><img src="clement.png" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Ng Jun Wei, Clement</h3>
+				<h5>Undergraduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> ng.junweiclement@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				Pursuing a B.Sc (Hons) Degree in Life Sciences
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p style="text-align: left"> I am studying epistatic interactions of essential genes in <i>Streptococcus pneumoniae</i>.
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+	
+<table>
+	<tr>
+		<td><img src="rachel-wong.jpg" height="300px" width="220px" alt=""></td>
+		<td>
+			<div class="name">
+				<h3>Wong Lyn Ee, Rachel</h3>
+				<h5>Undergraduate Student</h5>
+				<p class="contact">
+				<i class="fa fa-fw fa-envelope-open"></i> wonglyneerachel@u.nus.edu
+				</p>
+			</div>
+		
+			<div class="academic-qualifications">
+				<h2><i class="fa fa-fw fa-university"></i>&nbsp;Education</h2>
+				<p>
+				B.Sc., Life Sciences, National University of Singapore
+				</p>
+			</div>
+			
+			<div class="research-interest">
+				<h2><i class="fa fa-fw fa-line-chart"></i>&nbsp;Research Interest</h2>
+				<div class="research-interest-paragraph">
+				<p style="text-align: left"> I am interested to understand the capsule flippase specificity in <i>Streptococcus pneumoniae</i>.
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+	
+
+
+		  
+<div class="alumni">
+  <p><button class="alumni-button" onclick="window.location.href = 'alumni.html';"> Lab Alumni </button></p>
+</div>
+		  
+<div class="alumni">
+  <p><button class="alumni-button" onclick="window.location.href = 'people.html';"> Another Version </button></p>
+</div>	
+		  
+		  
+		  	  
+        <!-- CONTENT - END -->
+        <!-- NUS BREADCRUMBS - START -->
+        <div class="nus-breadcrumbs">
+          <div class="container-lg">
+            <ul>
+              <li>
+                <span class="icon faicon fa-location"></span>
+                <a href="index.html">Home</a>
+              </li>
+              <li>People</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NUS BREADCRUMBS - END -->
+        <!-- FOOTER - START -->
+        <footer class="nus-footer">
+          <!-- FOOT NAVIGATION - START -->
+          <div class="container-lg">
+            <div class="row wrapper navigator">
+              <div class="text-center">
+                <div class="nus-social-box">
+                  <div class="nus-module module">
+                    <div class="module-inner">
+                      <h3 class="title">
+                        <span>Bacterial Cell Envelope and Antibiotic Development (BCEAD) Laboratory</span>
+                      </h3>
+                      <div class="module-ct">
+                        <ul class="nus-contact-us">
+                          <li>
+                            <span class="icon faicon fa-address"></span>MD4 5 Science Drive 2  <br />Singapore 117545
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-phone"></span>+65 6601 2097
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-email"></span>
+                            <a href="mailto:xxx@nus.edu.sg">mictsj@nus.edu.sg</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nus-module module footnav-alt">
+                    <div class="module-inner">
+                      <div class="module-ct">
+                        <div>
+                          <a href="http://www.facebook.com/nus.singapore" target="_blank">
+                            <img src="facebook.png" alt="facebook" width="32" height="32">
+                          </a>&nbsp; <a href="http://twitter.com/NUSingapore" target="_blank">
+                            <img src="twitter.png" alt="twitter" width="32" height="32">
+                          </a>&nbsp; <a href="http://www.youtube.com/nuscast" target="_blank">
+                            <img src="youtube.png" alt="youtube" width="32" height="32">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOT NAVIGATION - END -->
+          <!-- FOOTER - COPYRIGHT - START -->
+          <div class="copyright">
+            <div class="container-lg">
+              <div class="row">
+                <div class="info">&copy; <a href="http://www.nus.edu.sg/">National University of Singapore</a>. All Rights Reserved. </div>
+                <div>
+                  <ul class="nav-copyright">
+                    <li>
+                      <a href="http://www.nus.edu.sg/legal-information-notices">Legal</a>
+                    </li>
+                    <li class="bullet">
+                      <a href="#">Branding guidelines</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER - COPYRIGHT - END -->
+        </footer>
+        <!-- FOOTER - END -->
+      </div>
+      <!-- NUS WRAPPER -->
+    </div>
+    <!-- NUS BODY container-lg -->
+    <a name="footer"></a>
+  </body>
+</html>
