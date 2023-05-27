@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Banner image styling begins here*/
+/*
+.banner-image {
+	height: 500px;
+	background-image: url("banner-image7.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-attachment: fixed;
+  	position: relative;
+}
+*/
+		
+.responsive {
+  	max-width: 100%;
+  	height: auto;
+}
+	
+.text {
+  	background-color: #ffffff;
+	  opacity: 0.3;
+  	color: black;
+  	font-size: 10vw; /* Responsive font size */
+  	font-weight: bold;
+  	margin: 0 auto; /* Center the text container */
+  	padding: 10px;
+  	width: 70%;
+  	text-align: center; /* Center text */
+  	position: absolute; /* Position text */
+  	top: 50%; /* Position text in the middle */
+  	left: 50%; /* Position text in the middle */
+  	transform: translate(-50%, -50%); /* Position text in the middle */
+  	mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.selected-publication {
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
+.publication-row {
+  background-color: #f2f2f2;
+	padding: 15px 15px 50px 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	left: 50%;
+	transform: translate (-50% -50%);
+}
+
+.journal-details {
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.all-publication {
+	padding: 15px 15px 50px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
+h10 {
+	font-size: 20px;
+	color: #004d9d;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.button {
+  	border: none;
+  	outline: 0;
+  	display: inline-block;
+  	padding: 5px;
+  	color: white;
+  	background-color: #d66f00;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 10%;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 10px;
+	float: left;
+}
+
+.button:hover {
+  	background-color: #cacaca;
+	color: black;
+	font-weight: bold;
+}
+
+.button1 {
+  	border: none;
+  	outline: 0;
+  	display: inline-block;
+  	padding: 10px;
+  	color: white;
+  	background-color: #d66f00;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 20%;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.button1:hover {
+  	background-color: #cacaca;
+	color: black;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
+	
+.selected-publication {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+	
+.publication-row {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+	
+h10 {
+	font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+.button {
+	width: 40%;
+}
+.button1 {
+	width: 40%;
+	font-size: 15px;
+}
+}
