@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+.name {
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contact {
+	font-size: 14px;
+	/*padding-left: 10px;*/
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #004d9d;
+}
+
+h3{
+	font-size: 28px;
+	font-weight: bold;
+	color: #004d9d;
+	/*padding-left: 10px;*/
+}
+
+h5{
+	font-size: 21px;
+	font-weight: bold;
+	color: #004d9d;
+	/*padding-left: 10px;*/
+}
+
+.academic-qualifications {
+	text-align: justify;
+	padding: 10px 0;
+}
+
+.research-interest {
+	text-align: justify;
+	padding: 10px 0;
+}
+
+.selected-publication {
+	text-align: justify;
+	padding: 10px 0;
+}
+
+/*button for view all publication*/
+.button {
+  	border: none;
+  	outline: 0;
+  	display: inline-block;
+  	padding: 10px;
+	margin-bottom: 50px;
+  	color: white;
+  	background-color: #d66f00;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 30%;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 10px;
+	float: left;
+}
+
+.button:hover {
+  	background-color: #cacaca;
+	color: black;
+	font-weight: bold;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+
+table {
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	max-width: 1300px;
+	color: #2e323b;
+	text-align: justify;
+}
+
+
+td {
+	padding: 20px;
+	background-color: antiquewhite;
+}
+
+table tr td img {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+td {
+	display: block;
+	width: 100%;
+	background-color: white;
+}
+	
+table tr td img {
+	width: 300px;
+	height: auto;
+}
+	
+	
+	
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
+}
