@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Banner image styling begins here*/
+/*
+.banner-image {
+	height: 500px;
+	background-image: url("banner-image17.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-attachment: fixed;
+  	position: relative;
+}
+*/
+
+.responsive {
+  	max-width: 100%;
+  	height: auto;
+}
+
+.container {
+	border-radius: 30px;
+  	/*background-color: #f2f2f2;*/
+  	padding-top: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	left: 50%;
+	transform: translate (-50%, 0);
+}
+
+.join-us p {
+	text-align: center; 
+	font-size: 20px; 
+	font-weight: bold; 
+}
+
+.research-fellow {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	text-align: justify;
+}
+
+.students {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	text-align: justify;
+}
+
+.requirement-list {
+	padding-left: 10px;
+}
+
+h5 {
+	font-size: 60px;
+	color: #004d9d;
+	font-weight: bold;
+	text-align: center;
+}
+
+h10 {
+	font-size: 30px;
+	color: #004d9d;
+	font-weight: bold;
+	text-align: justify;
+}
+
+h15 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
+	
+h5 {
+	font-size: 30px;
+}
+	
+h10 {
+	font-size: 18px;
+}
+	
+h15 {
+	font-size: 15px;
+}
+	
+.join-us p {
+	font-size: 15px; 
+}
+		
+}
+
