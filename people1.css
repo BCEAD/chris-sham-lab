@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+.header {
+    text-align: center;
+    margin: auto;
+    max-width: 50vh;
+    padding-block: 48px;
+    margin-bottom: 48px;
+    border-bottom: 2px dashed var(--primary);
+    color: var(--primary);
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+*/
+
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.team {
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    margin: 8px;
+    border: 2px solid var(--primary);
+    border-radius: 16px;
+    position: relative;
+    background-color: #ffffff34;
+}
+
+.team::before {
+    content: '';
+    background-image: var(--img);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    filter: blur(4px) grayscale(60%);
+}
+
+.team img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 480px;
+    border-radius: 16px;
+    z-index: 3;
+    object-fit: cover;
+    border: none;
+}
+
+.team:hover img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid var(--primary);
+    left: 60px;
+    top: 40px;
+}
+
+.team .info {
+    background-color: #004d9d;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+    padding: 16px;
+    border-top: 8px solid var(--primary);
+   
+    text-align: center;
+    transform: scale(2)
+}
+
+.team .name {
+    font-size: 24px;
+    padding: 16px;
+    text-transform: capitalize;
+}
+
+.team .title {
+    color: white;
+    text-transform: capitalize;
+}
+
+.team:hover .info {
+    transform: scale(1)
+}
+
+.team .social {
+    padding-block: 16px;
+    font-size: 24px;
+}
+
+.team .social i {
+    display: inline-block;
+    width: 48px;
+    padding: 12px;
+    background-color: #ededed;
+    border-radius: 16px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.team .social i:hover {
+    color: var(--primary);
+    background-color: #363636;
+
+}
+
+.meet-the-team {
+	font-size: 60px;
+	font-weight: bold;
+	color: #004d9d;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*button for the link to lab alumni list*/
+.alumni{
+  text-align: center;
+}
+
+.alumni-button {
+  	border: none;
+  	outline: 0;
+  	display: inline-block;
+  	padding: 10px;
+  	color: white;
+	font-size: 20px;
+  	font-weight: normal;
+  	background-color: #003062;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 20%;
+	border-radius: 50px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.alumni-button:hover {
+  	background-color: #d66f00;
+	color: white;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+.trial123 {
+	display: none;
+}
+
+.meet-the-team {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+	
+.alumni-button {
+	width: 40%;
+	font-size: 20px;
+}
+}
