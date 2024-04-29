@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris Sham Lab</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="v5.0.2.css" type="text/css" />
+    <link rel="stylesheet" href="styleguide.css" type="text/css" />
+    <link rel="stylesheet" href="font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="alumni.css" type="text/css">
+    <script src="v5.0.2.js" type="text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1546804-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-1546804-1');
+    </script>
+  </head>
+  <body>
+    <!-- SIDEBAR - OFF CANVAS - START -->
+    <div id="nus-sidebar-off-canvas" class="nus-sidebar-off-canvas offcanvas offcanvas-end flex-shrink-0" tabindex="-1" aria-labelledby="nus-sidebar-off-canvas">
+      <div class="header offcanvas-header">
+        <h5 class="offcanvas-title">Sidebar</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="body offcanvas-body">
+        <div class="nus-module module_menu">
+          <div class="module-inner">
+            <h3 class="title">
+              <span>Main Menu</span>
+            </h3>
+            <div class="module-ct">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <a href="index.html" class="mnu-lvl-1 btn align-items-center">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a href="research.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">Research</a>
+                </li> 
+                <li class="mb-1">
+                  <a href="people.html" class="mnu-lvl-1 btn align-items-center d-inline-block w-75">People</a>
+                </li>
+
+                <li class="mb-1">
+                  <a href="publication.html" class="mnu-lvl-1 btn align-items-center">Publication</a>
+                </li>                
+                <li class="mb-1">
+                  <a href="gallery.html" class="mnu-lvl-1 btn align-items-center">Gallery</a>
+                </li>
+				<li class="mb-1">
+                  <a href="join-us.html" class="mnu-lvl-1 btn align-items-center">Join Us</a>
+				</li>
+                <li class="mb-1">
+                  <a href="contact.html" class="mnu-lvl-1 btn align-items-center">Contact</a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIDEBAR MOBILE - OFF CANVAS - END -->
+    <div class="nus-body-container">
+      <div class="nus-wrapper">
+        <!-- HEADER -->
+        <header class="nus-header">
+          <!-- set class='microsite' to get #eee background. -->
+          <div class="container-lg">
+            <div class="row justify-content-evenly">
+              <!-- LOGO SECTION - START -->
+              <div class="col nus-logo">
+                <div class="d-flex flex-row">
+                  <!-- NUS LOGO -->
+                  <div>
+                    <a class="navbar-brand" href="//www.nus.edu.sg">
+                      <img src="icon-logo/logo.png" alt="NUS" />
+                    </a>
+                  </div>
+                  <!-- BORDER , .nus-dcnm (set own height and margin border CSS in template.css -->
+                  <div class="nus-faculty-border nus-dcnm">&nbsp;</div>
+                  <!-- FACULTY SUB-LOGO -->
+                  <div class="trial123">
+                    <a href="https://medicine.nus.edu.sg/mbio/index.html">
+                      <img src="icon-logo/dept-sublogo5.png" alt="SubLogo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- LOGO SECTION - END -->
+              <div class="col d-none d-lg-block">
+                <!-- QUICKLINKS -->
+                <div class="nus-quicklinks">
+                  <ul class="box nav nav-pills">
+                    <li>
+                      <a href="https://news.nus.edu.sg/">News</a>
+                    </li>
+                    <li>
+                      <a href="https://libportal.nus.edu.sg/frontend/index">Library</a>
+                    </li>
+                    <li>
+                      <a href="https://myportal.nus.edu.sg/studentportal/alerts/all/">Student</a>
+                    </li>
+					<li>
+                      <a href="https://www.nus.edu.sg/inside-nus">Staff</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //QUICKLINKS -->
+              </div>
+              <!-- SEARCH & BURGER Mobile-->
+              <div class="col nus-mobile-nav d-block d-lg-none">
+                <ul>
+                  <li>
+                    <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+                  </li>
+                  <li>
+                    <a class="faicon fa-mobile-menu btn-toggle off-canvas-toggle" data-bs-toggle="offcanvas" href="#nus-sidebar-off-canvas">&nbsp;</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </header>
+        <!-- //HEADER -->
+        <!-- MAIN NAVIGATION Desktop-->
+        <nav class="navbar navbar-expand-lg nus-main-nav d-none d-lg-flex">
+          <div class="container-lg">
+            <!-- MAIN MENU - NUS - START -->
+            <div class="nus-megamenu d-none d-md-block ">
+              <ul class="nav navbar-nav level0">
+                <li >
+                  <a class="" href="index.html" data-target="#">Home</a>
+                </li>
+                <li data-id="113" data-level="1">
+                  <a class="" href="research.html" data-target="#">Research</a>
+				</li>
+                <li class="current active" data-id="114" data-level="1">
+                  <a class="" href="people.html" data-target="#">People</a>
+                </li>
+                <li data-id="115" data-level="1">
+                  <a class="" href="publication.html" data-target="#">Publication</a>
+                </li>
+                <li data-id="116" data-level="1">
+                  <a class="" href="gallery.html" data-target="#">Gallery</a>
+                </li>
+				<li data-id="116" data-level="1">
+                  <a class="" href="join-us.html" data-target="#">Join Us</a>
+                </li>
+                <li data-id="117" data-level="1">
+                  <a class="" href="contact.html" data-target="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- MAIN MENU - NUS - END -->
+            <!-- SEARCH BUTTON ICON Desktop - START -->
+            <div class="search-btn-box d-none d-lg-block">
+              <a class="faicon fa-search collapsed" data-bs-toggle="collapse" href="#search-collapse" aria-expanded="false" aria-controls="search-collapse">&nbsp;</a>
+            </div>
+            <!-- SEARCH BUTTON ICON - END -->
+          </div>
+        </nav>
+        <!-- //MAIN NAVIGATION -->
+        <!-- SEARCH FORM Collapse-->
+        <div id="search-collapse" class="nus-search-box collapse">
+          <div class="container-lg py-3">
+            <div class="search">
+              <form action="https://www.google.com/search" method="get" class="form-inline form-search">
+                <input name="q" id="mod-search-searchword" class="form-control input-lg" type="text" placeholder="Search...">
+                <input type="hidden" name="domains" value="nus.edu.sg" />
+                <input type="hidden" name="sitesearch" value="nus.edu.sg" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- NUS SEARCH - ENDS -->
+
+        
+        <!-- CONTENT - START -->
+        <!--Contents code begins here-->
+	      
+<div class="meet-the-team">
+	<h10><i class="fa fa-fw fa-graduation-cap"></i>&nbsp;Lab Alumni</h10>
+</div>
+    
+		  
+
+<section>
+
+	<div class="team" style="--img: url(profile-image/miguel.jpeg)">
+		<a href="individual-profile-ms.html"><img src="profile-image/miguel.jpeg" alt="Miguel Soon Jun Yi"></a>
+            <div class="info">
+                <div class="name">Miguel Soon Jun Yi</div>
+                <div class="title">
+			Undergraduate Student <br>
+			2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+
+	<div class="team" style="--img: url(profile-image/sharifah.jpeg)">
+		<a href="individual-profile-slbm.html"><img src="profile-image/sharifah.jpeg" alt="Sharifah Lubna Binte Mohammad Isa"></a>
+            <div class="info">
+                <div class="name">Sharifah Lubna Binte Mohammad Isa</div>
+                <div class="title">
+			Undergraduate Student <br>
+			2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+
+	<div class="team" style="--img: url(profile-image/elaine.jpeg)">
+		<a href="individual-profile-es.html"><img src="profile-image/elaine.jpeg" alt="Elaine Sng Shi Min"></a>
+            <div class="info">
+                <div class="name">Elaine Sng Shi Min</div>
+                <div class="title">
+			Undergraduate Student <br>
+			2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+
+	 <div class="team" style="--img: url(profile-image/audrey.jpeg)">
+		<a href="individual-profile-as.html"><img src="profile-image/audrey.jpeg" alt="Audrey Santoso"></a>
+            <div class="info">
+                <div class="name">Audrey Santoso</div>
+                <div class="title">
+			AMGEN Scholar <br>
+			2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+	
+	 <div class="team" style="--img: url(profile-image/collin.jpeg)">
+		<a href="individual-profile-cc.html"><img src="profile-image/collin.jpeg" alt="Chu Ho Lun Collin"></a>
+            <div class="info">
+                <div class="name">Chu Ho Lun Collin</div>
+                <div class="title">
+			Undergraduate Student (Medical) <br>
+			2022-2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+
+	
+	 <div class="team" style="--img: url(profile-image/guang-xiang.jpeg)">
+		<a href="individual-profile-gx.html"><img src="profile-image/guang-xiang.jpeg" alt="Tang Guang Xiang"></a>
+            <div class="info">
+                <div class="name">Tang Guang Xiang</div>
+                <div class="title">
+			Undergraduate Student (Medical) <br>
+			2022-2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+
+        <div class="team" style="--img: url(profile-image/raphael.jpeg)">
+		<a href="individual-profile-rh.html"><img src="profile-image/raphael.jpeg" alt="Hon Yu Han Raphael"></a>
+            <div class="info">
+                <div class="name">Hon Yu Han Raphael</div>
+                <div class="title">
+			Undergraduate Student (Medical) <br>
+			2022-2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+
+	
+        <div class="team" style="--img: url(profile-image/liu-yao.jpg)">
+		<a href="individual-profile-ly.html"><img src="profile-image/liu-yao.jpg" alt="Liu Yao"></a>
+            <div class="info">
+                <div class="name">Liu Yao</div>
+                <div class="title">
+			Undergraduate Student <br>
+			2021-2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+	
+	<div class="team" style="--img: url(profile-image/rachel-wong.jpg)">
+		<a href="individual-profile-rw.html"><img src="profile-image/rachel-wong.jpg" alt="Wong Lyn Ee, Rachel"></a>
+            <div class="info">
+                <div class="name">Wong Lyn Ee, Rachel</div>
+                <div class="title">
+			Undergraduate Student <br>
+			2021-2023 <br> <br>
+			 <br>
+
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+	
+	<div class="team" style="--img: url(profile-image/millie-wong.jpg)">
+			<a href="individual-profile-mw.html"><img src="profile-image/millie-wong.jpg" alt="Wong Ming Hui, Millie"></a>
+		    <div class="info">
+			<div class="name">Wong Ming Hui, Millie</div>
+			<div class="title">
+				Undergraduate Student <br>
+				2020-2022 <br> <br>
+				Graduate Student <br>
+				National University of Singapore
+			</div>
+			<!--
+			    <div class="social">
+			    <i class="fab fa-facebook-f"></i>
+			    <i class="fab fa-instagram"></i>
+			    <i class="fab fa-twitter"></i>
+			    <i class="fab fa-snapchat-ghost"></i>
+			</div>
+			-->
+		    </div>
+	</div>
+	
+        <div class="team" style="--img: url(profile-image/jia-hui.jpeg)">
+		<a href="individual-profile-jh.html"><img src="profile-image/jia-hui.jpeg" alt="Chen Jia Hui"></a>
+            <div class="info">
+                <div class="name">Chen Jia Hui</div>
+                <div class="title">
+			Master Student <br>
+			2020-2022 <br> <br>
+			Teacher <br>
+			MoE Postgraduate Diploma in Education
+		</div>
+		<!--
+		    <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>
+	
+        <div class="team" style="--img: url(profile-image/joe.png)">
+		<a href="https://www.linkedin.com/in/iamjoeong/?originalSubdomain=sg"><img src="profile-image/joe.png" alt="Ong Wee Jian, Joe"></a>
+            <div class="info">
+                <div class="name">Ong Wee Jian, Joe</div>
+                <div class="title">
+			Postdoctoral Fellow <br>
+			2020-2021 <br> <br>
+			Technical Application Specialist II <br>
+			Thermo Fisher Scientific
+		</div>
+                <!--
+		<div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-snapchat-ghost"></i>
+                </div>
+		-->
+            </div>
+        </div>	      
+</section>	      
+	      
+	      
+	      
+	      
+	      
+	      
+<div class="container">
+    <h5>Undergraduate Trainees</h5>
+		   
+	
+	<div class="list-of-alumni">
+
+		<div class="alumni-name">Miguel Soon Jun Yi (2023)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore 
+		</div>
+
+		<div class="alumni-name">Sharifah Lubna Binte Mohammad Isa (2023)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore 
+		</div>
+
+		<div class="alumni-name">Elaine Sng Shi Min (2023)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore 
+		</div>
+
+		<div class="alumni-name">Audrey Santoso (2023)
+		</div>
+		<div class="alumni-background"> AMGEN Scholar, Undergraduate Bachelor of Medicine, Universitas Padjadjaran 
+		</div>
+
+		<div class="alumni-name">Chu Ho Lun Collin (2023)
+		</div>
+		<div class="alumni-background"> School of Medicine, National University of Singapore 
+		</div>
+
+		<div class="alumni-name">Tang Guang Xiang (2023)
+		</div>
+		<div class="alumni-background"> School of Medicine, National University of Singapore 
+		</div>
+
+		<div class="alumni-name">Hon Yu Han Raphael (2023)
+		</div>
+		<div class="alumni-background"> School of Medicine, National University of Singapore 
+		</div>
+		
+		<div class="alumni-name">Liu Yao (2023)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Wong Lyn Ee, Rachel (2023)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Metta Sodian (2022)
+		</div>
+		<div class="alumni-background"> AMGEN Scholar, Atma Jaya Catholic University of Indonesia
+		</div>
+		
+		<div class="alumni-name">Wong Ming Hui, Millie (2022)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Ng De Rong, Tony (2021)
+		</div>
+		<div class="alumni-background"> School of Medicine, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Ng Yi Jie (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Chan Ee Ling Jann (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Eugene Gan Cheong Wei (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Tay Hui Yi (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Ng Jing Ting (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Elaine Tiong Pei Ying (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Tan Huai Chyi (2021)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Stella Lee Yue Ting (2020)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Daniel Chua Chong Hin (2019)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		<div class="alumni-name">Lisa Yu (2019)
+		</div>
+		<div class="alumni-background"> AMGEN Scholar, Cornell University 
+		</div>
+		
+		<div class="alumni-name">Drake Alexis Mei Ern (2019)
+		</div>
+		<div class="alumni-background">University of North Carolina at Chapel Hill
+		</div>
+		
+		<div class="alumni-name">Michelle Pang Wan Sia (2019)
+		</div>
+		<div class="alumni-background"> Faculty of Science, National University of Singapore
+		</div>
+		
+		&nbsp;
+		
+	</div>
+</div>		  
+		  
+
+
+		
+
+	
+	
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+        <!-- CONTENT - END -->
+        <!-- NUS BREADCRUMBS - START -->
+        <div class="nus-breadcrumbs">
+          <div class="container-lg">
+            <ul>
+              <li>
+                <span class="icon faicon fa-location"></span>
+                <a href="people.html">People</a>
+              </li>
+              <li>Alumni</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NUS BREADCRUMBS - END -->
+        <!-- FOOTER - START -->
+        <footer class="nus-footer">
+          <!-- FOOT NAVIGATION - START -->
+          <div class="container-lg">
+            <div class="row wrapper navigator">
+              <div class="text-center">
+                <div class="nus-social-box">
+                  <div class="nus-module module">
+                    <div class="module-inner">
+                      <h3 class="title">
+                        <span>Bacterial Cell Envelope and Antibiotic Development (BCEAD) Laboratory</span>
+                      </h3>
+                      <div class="module-ct">
+                        <ul class="nus-contact-us">
+                          <li>
+                            <span class="icon faicon fa-address"></span>MD4 5 Science Drive 2  <br />Singapore 117545
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-phone"></span>+65 6601 2097
+                          </li>
+                          <li>
+                            <span class="icon faicon fa-email"></span>
+                            <a href="mailto:xxx@nus.edu.sg">mictsj@nus.edu.sg</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nus-module module footnav-alt">
+                    <div class="module-inner">
+                      <div class="module-ct">
+                        <div>
+			<!--
+                          <a href="http://www.facebook.com/nus.singapore" target="_blank">
+                            <img src="facebook.png" alt="facebook" width="32" height="32">
+                          </a>&nbsp; <a href="http://twitter.com/NUSingapore" target="_blank">
+                            <img src="twitter.png" alt="twitter" width="32" height="32">
+                          </a>&nbsp; <a href="http://www.youtube.com/nuscast" target="_blank">
+                            <img src="youtube.png" alt="youtube" width="32" height="32">
+                          </a>
+			-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOT NAVIGATION - END -->
+          <!-- FOOTER - COPYRIGHT - START -->
+          <div class="copyright">
+            <div class="container-lg">
+              <div class="row">
+                <div class="info">&copy; <a href="http://www.nus.edu.sg/">National University of Singapore</a>. All Rights Reserved. </div>
+                <div>
+                  <ul class="nav-copyright">
+                    <li>
+                      <a href="http://www.nus.edu.sg/legal-information-notices">Legal</a>
+                    </li>
+                    <li class="bullet">
+                      <a href="#">Branding guidelines</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER - COPYRIGHT - END -->
+        </footer>
+        <!-- FOOTER - END -->
+      </div>
+      <!-- NUS WRAPPER -->
+    </div>
+    <!-- NUS BODY container-lg -->
+    <a name="footer"></a>
+  </body>
+</html>
