@@ -231,6 +231,14 @@ h {
 h2 {
 	display: none;
 }
+
+.research-description {
+	font-size: 15px;
+}
+
+.research-list {
+	font-size: 14px;
+}
 	
 .column5 {
  	width: 90%;
