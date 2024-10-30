@@ -137,6 +137,14 @@ table tr td img{
 	*/
 }
 
+.research-description {
+	font-size: 20px;
+}
+
+.research-list {
+	font-size: 18px;
+}
+
 .research-topic {
 	margin-right: auto;
 	margin-left: auto;
