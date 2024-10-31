@@ -144,6 +144,11 @@ table tr td img{
 	font-size: 18px;
 }
 
+.research-paragraph {
+	font-size: 16px;
+}
+
+
 .research-topic {
 	margin-right: auto;
 	margin-left: auto;
@@ -237,6 +242,10 @@ h2 {
 }
 
 .research-list {
+	font-size: 14px;
+}
+
+.research-paragraph {
 	font-size: 14px;
 }
 	
