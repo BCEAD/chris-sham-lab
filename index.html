@@ -347,7 +347,8 @@
   <span class="dot" ></span>
   <span class="dot" ></span>
 </div> 
-	      
+
+<!--
 <script>
 var slideIndex = 0;
 showSlides();
@@ -368,7 +369,42 @@ function showSlides() {
   dots[slideIndex-1].className += " active1";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
-</script>	     
+</script>
+-->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  
+  // Hide all slides
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  
+  // Increment slide index
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+    
+  // Remove active class from all dots
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  
+  // Display the current slide and add active class to the corresponding dot
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+  
+  // Set delay for the next slide to 8 seconds (8000 milliseconds)
+  setTimeout(showSlides, 8000); 
+}
+</script>
+
+	      
 		  
 <div class="container">
 
@@ -432,7 +468,7 @@ function showSlides() {
 	<p class="img-text"><b>Fig 4.</b> The capsule visualized by immunostaining (Quellung reaction).</p>    
 	</div>	 
 </div>
--->
+
 	      
 <div class="row7">
   	<div class="column7">	      
@@ -445,6 +481,7 @@ function showSlides() {
 	<p class="img-text"><b>Fig 4.</b> The capsule visualized by immunostaining (Quellung reaction).</p>    
 	</div>	 
 </div>	
+-->
 	      
 </div>	
 	    
